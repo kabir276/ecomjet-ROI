@@ -22,12 +22,7 @@ import CalendlyWidget from "../components/calendly"
 export default function Home() {
 
   const [isDropdownVisible, setDropdownVisible] = useState(false);
-  const toggleDropdown = () => {
-    setDropdownVisible(!isDropdownVisible);
-  };
-  const closeDropdown = () => {
-    setDropdownVisible(false);
-  };
+ 
   const scrollFunc = () => {
     const section = document.getElementById("scheduleCall");
     if (section) {

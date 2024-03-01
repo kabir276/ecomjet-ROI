@@ -9,13 +9,10 @@ import DropDownMenu from "./drop-down-menu";
 
 interface NavbarProps {
   
-    scrollToBrands: () => void;
+
   }
   
-  const Navbar = ({ 
-  
-    scrollToBrands 
-  }: NavbarProps) => {
+  const Navbar = () => {
 
     const [isDropDownVisible, setIsDropDownVisible] = useState(false);
 
@@ -76,7 +73,7 @@ interface NavbarProps {
 
         <div className=" flex">
             <button 
-            onClick={()=>scrollToBrands}
+           
             className="
             inline-flex md:h-12 h-8  animate-shimmer items-center justify-center 
             rounded-md border-[1.8px] border-[rgba(151,106,242,0.34)] bg-[linear-gradient(110deg,#000103,45%,rgb(152,106,242,0.2),55%,#000103)] 

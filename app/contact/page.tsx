@@ -69,10 +69,10 @@ type FormValues = {
   job_title: string;
   company_name: string;
   help:
-    | "Evaluate Bird for my company"
-    | "Learn More"
-    | "Get a Quote"
-    | "Other";
+  | "Evaluate Bird for my company"
+  | "Learn More"
+  | "Get a Quote"
+  | "Other";
   company_size: "1-10" | "11-50" | "51-200" | "201-500" | "501-1000" | "1000+";
   info: string;
   terms: boolean;
@@ -123,23 +123,13 @@ export default function ContactForm() {
 
   return (
     <div className=" w-full   md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden ">
-      <Navbar
-        scrollToWebsiteDesign={() => {}}
-        scrollToGraphicDesign={() => {}}
-        scrollToShopifyStores={() => {}}
-        scrollToBrands={() => {}}
-       />
       <div className="md:flex items-start justify-center md:py-20 px-6">
         <div className="">
           <div className="text-5xl font-medium  w-full md:w-2/3  pb-5 md:text-7xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
             Contact our sales team
           </div>
           <div
-            className="
-              
-              py-4
-              text-gray-300
-                    "
+            className="py-4 text-gray-300   "
           >
             Let&apos;s talk about how Bird can help your team work better.
           </div>
@@ -299,7 +289,7 @@ export default function ContactForm() {
                         </div>
                         <SelectItem value="Learn More">Learn More</SelectItem>
                         <SelectItem value="Get a Quote">Get a Quote</SelectItem>
-               
+
                         <SelectItem value="Other">Other</SelectItem>
                       </SelectContent>
                     </Select>
