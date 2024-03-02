@@ -226,11 +226,11 @@ export default function Home() {
 
         <Services />
         <div className="" id="scheduleCall" style={{ background: '' }}>
-        <div className="flex lg:flex-row flex-col-reverse justify-center  m-auto gap-24 p-12 lg:-mt-[5rem] ">
-          <div className="w-[50%] bg-black">
+        <div className="flex lg:flex-row flex-col-reverse justify-center  m-auto md:gap-24 md:p-12  px-8 lg:-mt-[5rem] ">
+          <div className="md:w-[50%] ">
         <CalendlyWidget />
         </div>
-          <div className="mb-8 lg:mb-0 m-auto w-[50%]">
+          <div className="mb-8 lg:mb-0 m-auto md:w-[40%] w-[100%]">
             <img src="/logo/women2avatar.png" className="lg: h-36  bg-[rgb(206,147,216)] rounded-full pt-1 pl-[2px] pr-[2px]" alt="" />
             <p className=" text-sm mt-8 font-medium text-[rgb(206,147,216)]">SCHEDULE YOUR CALL WITH US</p>
             <p className="text-4xl lg:font-bold mt-3 text-[rgb(92,107,192)] mb-4" >Free 15-Minute Demo Call</p>
