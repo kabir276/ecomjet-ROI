@@ -107,14 +107,14 @@ export default function Home() {
       <Spotlight className="hidden md:flex md:-top-80 left-80  " fill="rgba(151,106,242,0.24)" />
       <div className="p-4 mx-auto relative z-10 w-full pt-10 md:pt-20 px-2">
         <div
-          className="text-3xl pb-5 md:text-7xl px-6 text-center  bg-clip-text text-transparent 
+          className="text-4xl pb-5 md:text-7xl px-6 text-center  bg-clip-text text-transparent 
              bg-gradient-to-b from-neutral-50
               to bg-[rgba(151,106,242,0.63)] bg-opacity-50"
         >
           Create, grow, and
           <br />scale your business
         </div>
-        <p className="md:mt-4 mt-1   md:w-auto w-[80%]  md:text-lg text-base  font-normal  text-neutral-300 max-w-[40rem] text-center mx-auto px-4">
+        <p className="md:mt-4 mt-1   md:w-auto w-[80%]  md:text-lg text-[14px]  font-normal  text-neutral-300 md:max-w-[40rem] max-w-[24rem] text-center mx-auto px-4">
           It&apos;s time to make your budget count, Build & Scale your business with the ROI which was missing.  ROI-driven solutions for your eCommerce business or SaaS/digital product.
         </p>
         <img src="/logo/image1.png" className="lg:w-[50rem] w-[25rem] sm:w-[35rem] md:mt-12 m-auto lg:h-full mt-8" style={{ boxShadow: "0 0 30px rgba(152,106,242,0.4)", height: "100%" }} alt="" />
