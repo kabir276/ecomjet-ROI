@@ -22,7 +22,7 @@ import CalendlyWidget from "../components/calendly"
 export default function Home() {
 
   const [isDropdownVisible, setDropdownVisible] = useState(false);
- 
+
   const scrollFunc = () => {
     const section = document.getElementById("scheduleCall");
     if (section) {
@@ -53,7 +53,7 @@ export default function Home() {
               height={100}
               className="w-10 h-10 md:w-20 md:h-20 flex justify-center"
             />
-          <p className={`lg:text-3xl text-xl lg:font-semibold font-medium m-auto p-3 `} style={{ color: "rgb(152,106,242)"}}>Ecom Jet ROI</p>
+            <p className={`lg:text-3xl text-xl lg:font-semibold font-medium m-auto p-3 `} style={{ color: "rgb(152,106,242)" }}>Ecom Jet ROI</p>
 
           </Link>
         </div>
@@ -65,7 +65,7 @@ export default function Home() {
              bg-gradient-to-b from-neutral-50
               to bg-neutral-400 bg-opacity-50"
         >
-           
+
         </div>
 
         {/* <div className="flex md:hidden">
@@ -88,8 +88,8 @@ export default function Home() {
         </div> */}
 
         <div className=" flex">
-            <button 
-            onClick={()=>scrollFunc()}
+          <button
+            onClick={() => scrollFunc()}
             className="
             inline-flex md:h-12 h-8  animate-shimmer items-center justify-center 
             rounded-md border-[1.8px] border-[rgba(151,106,242,0.34)] bg-[linear-gradient(110deg,#000103,45%,rgb(152,106,242,0.2),55%,#000103)] 
@@ -98,8 +98,8 @@ export default function Home() {
               focus:ring-offset-slate-50
 
             ">
-               Schedule Call
-            </button>
+            Schedule Call
+          </button>
         </div>
 
       </div>
@@ -111,11 +111,11 @@ export default function Home() {
              bg-gradient-to-b from-neutral-50
               to bg-[rgba(151,106,242,0.63)] bg-opacity-50"
         >
-          Create, grow, and <br /> scale your business
+        Create, grow, and
+          <br />scale your business
         </div>
-        <p className="md:mt-4 mt-1   md:w-auto w-[80%]  md:text-lg text-base  font-normal  text-neutral-300 max-w-lg text-center mx-auto px-4">
-          Custom tailored solutions for your business. We are a team of
-          creatives who are excited to help you grow your business.
+        <p className="md:mt-4 mt-1   md:w-auto w-[80%]  md:text-lg text-base  font-normal  text-neutral-300 max-w-[40rem] text-center mx-auto px-4">
+        It's time to make your budget count, Build & Scale your business with the ROI which was missing.  ROI-driven solutions for your eCommerce business or SaaS/digital product.
         </p>
         <img src="/logo/image1.png" className="lg:w-[50rem] w-[25rem] sm:w-[35rem] md:mt-12 m-auto lg:h-full mt-8" style={{ boxShadow: "0 0 30px rgba(152,106,242,0.4)", height: "100%" }} alt="" />
 
@@ -141,7 +141,7 @@ export default function Home() {
             <p className="lg:text-3xl text-[14px] sm:text-xl lg:mt-4 mt-1 sm:mt-2 sm:px-1 bg-[rgb(126,132,182)] lg:w-[20rem] w-[9rem] sm:w-[14rem] text-center m-auto" style={{ color: "white" }}>PAID ADVERTISING</p>
           </div>
           <div className="flex flex-row justify-between m-auto lg:p-32 p-8 sm:p-14 -mt-[1rem] sm:-mt-[2rem] lg:-mt-[5rem] ">
-            <img src="/logo/image2.png" className="lg:w-[30rem] sm:w-[16rem] md:w-[18rem]  w-[12rem] h-[100%]"   alt="" />
+            <img src="/logo/image2.png" className="lg:w-[30rem] sm:w-[16rem] md:w-[18rem]  w-[12rem] h-[100%]" alt="" />
             <p className="lg:text-2xl align-middle  md:text-[16px] sm:text-[14px] text-[10px] text-left ml-8" style={{ color: "rgb(186,196,231,0.8)" }}>We are here to skyrocket your ecom business through paid traffic with tailored strategies to scale your sales to next level.
               If you want an agency where with two clicks, you can get a clear breakdown of how much was spent, how much was made & what your net profit was - we’re for you.
               we look for a very specific kind of clients.
@@ -226,25 +226,25 @@ export default function Home() {
 
         <Services />
         <div className="" id="scheduleCall" style={{ background: '' }}>
-        <div className="flex lg:flex-row flex-col-reverse justify-center  m-auto md:gap-24 md:p-12  px-8 lg:-mt-[5rem] ">
-          <div className="md:w-[50%] ">
-        <CalendlyWidget />
-        </div>
-          <div className="mb-8 lg:mb-0 m-auto md:w-[40%] w-[100%]">
-            <img src="/logo/women2avatar.png" className="lg: h-36  bg-[rgb(206,147,216)] rounded-full pt-1 pl-[2px] pr-[2px]" alt="" />
-            <p className=" text-sm mt-8 font-medium text-[rgb(206,147,216)]">SCHEDULE YOUR CALL WITH US</p>
-            <p className="text-4xl lg:font-bold mt-3 text-[rgb(92,107,192)] mb-4" >Free 15-Minute Demo Call</p>
-            <p className="text-xl  text-[rgb(255,255,255)] mt-6" >By the end of this Audit call, you will have a clear understand of the next steps you can take for your business to start generating consistent and reliable results online with Funnels & Paid Advertising.</p><br />
-            <p className="text-xl  text-[rgb(141,141,141)] " >Find a time on our calendar to schedule your call today and we look forward to speaking to you soon!</p><br />
-            <p className="text-2xl font-semibold text-[rgb(171,71,188)] " >THIS AUDIT CALL IS PERFECT FOR:</p><br />
-            <span className="flex flex-row mt-1"> <CircleCheck /><p className="text-l w-[35rem]  ml-2  -mt-[3px] text-[#e0e1ff]"> Businesses looking to convert their current website into a <b>high quality & streamlined funnel format.</b></p></span>
-            <span className="flex flex-row mt-3"> <CircleCheck /><p className="text-l w-[35rem]  ml-2  -mt-[3px] text-[#e0e1ff]"> Businesses looking to understand their <b>increased revenue potential </b>with funnels & conversion rate optimization.</p></span>
-            <span className="flex flex-row mt-2"> <CircleCheck /><p className="text-l w-[35rem]  ml-2  -mt-[1px] text-[#e0e1ff] "> Businesses looking to take their offline business <b>online</b></p></span>
-            <span className="flex flex-row mt-3"> <CircleCheck /><p className="text-l w-[35rem] ml-2  -mt-[3px] text-[#e0e1ff]"> Businesses looking for a reliable agency that can <b> make their company a priority.</b></p></span>
-            <span className="flex flex-row mt-3"> <CircleCheck /><p className="text-l w-[35rem] ml-2  -mt-[3px] text-[#e0e1ff]">Businesses looking to <b>maximize their conversion rates & average order value.</b></p></span>
+          <div className="flex lg:flex-row flex-col-reverse justify-center  m-auto md:gap-24 md:p-12  px-8 lg:-mt-[5rem] ">
+            <div className="md:w-[50%] ">
+              <CalendlyWidget />
+            </div>
+            <div className="mb-8 lg:mb-0 m-auto md:w-[40%] w-[100%]">
+              <img src="/logo/women2avatar.png" className="lg: h-36  bg-[rgb(206,147,216)] rounded-full pt-1 pl-[2px] pr-[2px]" alt="" />
+              <p className=" text-sm mt-8 font-medium text-[rgb(206,147,216)]">SCHEDULE YOUR CALL WITH US</p>
+              <p className="text-4xl lg:font-bold mt-3 text-[rgb(92,107,192)] mb-4" >Free 15-Minute Demo Call</p>
+              <p className="text-xl  text-[rgb(255,255,255)] mt-6" >By the end of this Audit call, you will have a clear understand of the next steps you can take for your business to start generating consistent and reliable results online with Funnels & Paid Advertising.</p><br />
+              <p className="text-xl  text-[rgb(141,141,141)] " >Find a time on our calendar to schedule your call today and we look forward to speaking to you soon!</p><br />
+              <p className="text-2xl font-semibold text-[rgb(171,71,188)] " >THIS AUDIT CALL IS PERFECT FOR:</p><br />
+              <span className="flex flex-row mt-1"> <CircleCheck /><p className="text-l w-[35rem]  ml-2  -mt-[3px] text-[#e0e1ff]"> Businesses looking to convert their current website into a <b>high quality & streamlined funnel format.</b></p></span>
+              <span className="flex flex-row mt-3"> <CircleCheck /><p className="text-l w-[35rem]  ml-2  -mt-[3px] text-[#e0e1ff]"> Businesses looking to understand their <b>increased revenue potential </b>with funnels & conversion rate optimization.</p></span>
+              <span className="flex flex-row mt-2"> <CircleCheck /><p className="text-l w-[35rem]  ml-2  -mt-[1px] text-[#e0e1ff] "> Businesses looking to take their offline business <b>online</b></p></span>
+              <span className="flex flex-row mt-3"> <CircleCheck /><p className="text-l w-[35rem] ml-2  -mt-[3px] text-[#e0e1ff]"> Businesses looking for a reliable agency that can <b> make their company a priority.</b></p></span>
+              <span className="flex flex-row mt-3"> <CircleCheck /><p className="text-l w-[35rem] ml-2  -mt-[3px] text-[#e0e1ff]">Businesses looking to <b>maximize their conversion rates & average order value.</b></p></span>
+            </div>
           </div>
         </div>
-      </div>
         <InfiniteMovingCardsDemo />
         <FAQS />
 
