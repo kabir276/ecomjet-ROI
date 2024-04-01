@@ -107,7 +107,7 @@ export default function Home() {
       <Spotlight className="hidden md:flex md:-top-80 left-80  " fill="rgba(151,106,242,0.24)" />
       <div className="p-4 mx-auto relative z-10 w-full pt-10 md:pt-20 px-2">
         <div
-          className="text-4xl pb-5 md:text-7xl px-6 text-center  bg-clip-text text-transparent 
+          className="text-5xl pb-5 md:text-7xl px-6 text-center  bg-clip-text text-transparent 
              bg-gradient-to-b from-neutral-50
               to bg-[rgba(151,106,242,0.63)] bg-opacity-50"
         >
@@ -144,18 +144,18 @@ export default function Home() {
             <img src="/logo/image2.png" className="lg:w-[30rem] sm:w-[16rem] md:w-[18rem]  w-[12rem] h-[100%]" alt="" />
             <div>
               <p className="lg:text-lg align-middle  md:text-[16px] sm:text-[14px] text-[10px] text-left ml-8 mb-4" style={{ color: "rgb(186,196,231,0.9)" }}>At EcomJetROI, we provide comprehensive, ROI-driven solutions to accelerate growth for your eCommerce business or SaaS/digital product.</p>
-             
+
               <p className="lg:text-base align-middle  md:text-[16px] sm:text-[14px] text-[10px] text-left ml-8 text-[#f3e5ff]">ECommerce Growth Engines</p>
 
-              <p className="lg:text-base align-middle  md:text-[16px] sm:text-[14px] text-[10px] text-left ml-8 mb-4" style={{ color: "rgb(186,196,231,0.8)" }}>We are here to build and skyrocket your eCommerce business through paid traffic and sales funnels with tailored strategies to scale your sales to the next level. If you want an agency that gives you complete visibility into spend, revenue, and net profit with just two clicks - we&apos;re the ideal partner for you.</p>
+              <p className="lg:text-base align-middle  md:text-[16px] sm:text-[14px] text-[10px] text-left ml-8 mb-4" style={{ color: "rgb(186,196,231,0.8)" }}>We are here to build and skyrocket your eCommerce business through paid traffic and sales funnels with tailored strategies to scale your sales to the next level.</p>
 
-          
+
               <p className="lg:text-base align-middle  md:text-[16px] sm:text-[14px] text-[10px] text-left ml-8 text-[#f3e5ff]" >SaaS/Digital Product Expertise
               </p>
 
               <p className="lg:text-base align-middle  md:text-[16px] sm:text-[14px] text-[10px] text-left ml-8 mb-4" style={{ color: "rgb(186,196,231,0.8)" }}>Whether you need to develop a powerful web app or SaaS platform or need a complete go-to-market strategy for user acquisition - our elite teams have you covered. From engineering to growth marketing, we ensure your digital product delivers maximum ROI.</p>
 
-              
+
               <p className="lg:text-base align-middle  md:text-[16px] sm:text-[14px] text-[10px] text-left ml-8 text-[#f3e5ff]" >The Ideal Client For Us
               </p>
 
@@ -176,20 +176,27 @@ export default function Home() {
               <span className="bg-clip-text text-transparent bg-gradient-to-b from-[rgb(68,35,255)]
               to bg-[#ab66fa]" >Ecom Jet ROI?</span>
             </p>
-            <p className="lg:text-xl md:text-[16px] sm:text-[11px] text-[10px] font-medium lg:mt-4 md:mr-4 sm:mt-3 mt-2  m-auto text-[#d8d8d8] w-[80%] md:w-[100%]" style={{}}>It&apos;s time to stop chasing after freelancers that are unreliable and expensive. Get your own experts on Facebook Ads.</p>
+            <p className="lg:text-xl md:text-[16px] sm:text-[11px] text-[10px] font-medium lg:mt-4 md:mr-4 sm:mt-3 mt-2  m-auto text-[#d8d8d8] w-[80%] md:w-[100%]" style={{}}>It&apos;s time to stop chasing after freelancers that are unreliable and expensive. Get your own experts team for your Business.
+            </p>
           </div>
-          <div className="flex flex-col md:flex-row justify-between m-auto lg:p-20 sm:p-20 p-10 gap-4  ">
-            <div className="lg:w-[50%]    lg:-mt-4">
-              <span className="flex flex-row lg:mt-4 sm:mt-1 "> <CircleCheck /><p className="lg:text-l  text-[13px] font-bold  ml-2 text-[#d8d8d8]"> Dedicated Facebook Ads Expert</p></span>
-              <p className="ml-8 lg:mt-4 sm:mt-0 text-[#d8d8d8]">Our Fb Ads Expert will be managing your Facebook ads 24/7</p>
-              <span className="flex flex-row mt-4 "> <CircleCheck /><p className="lg:text-l  text-[13px] font-bold  ml-2 text-[#d8d8d8]"> Scale Your Ads To The Sky</p></span>
-              <p className="ml-8 lg:mt-4 sm:mt-0 text-[#d8d8d8]">We will be scaling your ads with our tailored strategies to scale with maintaining high ROAS.</p>
-              <span className="flex flex-row mt-4"> <CircleCheck /><p className="lg:text-l  text-[13px] font-bold  ml-2 text-[#d8d8d8] "> Audience Targeting</p></span>
-              <p className="ml-8 lg:mt-4 sm:mt-0 text-[#d8d8d8]">We will be doing laser targeting the exact audience who are interested in your brand or products.</p>
-              <span className="flex flex-row mt-4"> <CircleCheck /><p className="lg:text-l  text-[13px] font-bold  ml-2 text-[#d8d8d8]"> The optimal Facebook ads funnel</p></span>
-              <p className="ml-8 lg:mt-4 sm:mt-0 text-[#d8d8d8]">Reading the KPI&apos;s and building a facebook ad funnel by targeting the HOT, WARM & COLD audiences along with the retargeting + Scaling with LLA&apos;s and CBO campaigns</p>
-              <span className="flex flex-row mt-4"> <CircleCheck /><p className="lg:text-l  text-[13px] font-bold  ml-2 text-[#d8d8d8]"> Facebook Ad Copy</p></span>
-              <p className="ml-8 lg:mt-4 sm:mt-0 text-[#d8d8d8]">Facebook ads copy that actually sells, that speaks exactly the same language of your audience.</p>
+          <div className="flex flex-col md:flex-row justify-between m-auto lg:p-20 sm:p-20 p-10  gap-4">
+            <div className="lg:w-[50%]    lg:-mt-10">
+              <span className="flex flex-row lg:mt-2 sm:mt-1 "> <CircleCheck /><p className="lg:text-l  text-[13px] font-bold  ml-2 text-[#d8d8d8]">Integrated eCommerce & SaaS Growth Solutions</p></span>
+              <p className="ml-8 lg:mt-1 sm:mt-0 text-[#d8d8d8] text-sm ">We provide true end-to-end mastery across the full business lifecycle - from developing your online store or software product to aggressively marketing it for sales/user acquisition to optimizing for scalable growth.</p>
+              <span className="flex flex-row mt-2 "> <CircleCheck /><p className="lg:text-l  text-[13px] font-bold  ml-2 text-[#d8d8d8]"> Cross-Functional Expertise</p></span>
+              <p className="ml-8 lg:mt-1 sm:mt-0 text-[#d8d8d8]  text-sm ">Our teams blend elite skills across eCommerce marketing, web/app development, SaaS marketing, data science, cloud, AI/ML and more. This cross-functional powerhouse ensures seamless execution.</p>
+              <span className="flex flex-row mt-2"> <CircleCheck /><p className="lg:text-l  text-[13px] font-bold  ml-2 text-[#d8d8d8] ">Dedicated Growth Squads</p></span>
+              <p className="ml-8 lg:mt-1 sm:mt-0 text-[#d8d8d8]  text-sm">No more unreliable freelancers. You get committed specialist squads devoted to your success.</p>
+              <span className="flex flex-row mt-2"> <CircleCheck /><p className="lg:text-l  text-[13px] font-bold  ml-2 text-[#d8d8d8]"> eCommerce Marketing</p></span>
+              <p className="ml-8 lg:mt-1 sm:mt-0 text-[#d8d8d8] text-sm">Paid media experts, audience intel, full-funnel campaigns, ROI-focused scaling</p>&apos;
+              <span className="flex flex-row -mt-4"> <CircleCheck /><p className="lg:text-l  text-[13px] font-bold  ml-2 text-[#d8d8d8]"> Web/App Development</p></span>
+              <p className="ml-8 lg:mt-1 sm:mt-0 text-[#d8d8d8] text-sm">Seasoned engineers, agile product design, cloud architecture</p>
+              <span className="flex flex-row mt-2"> <CircleCheck /><p className="lg:text-l  text-[13px] font-bold  ml-2 text-[#d8d8d8]"> SaaS/Digital Marketing</p></span>
+              <p className="ml-8 lg:mt-1 sm:mt-0 text-[#d8d8d8] text-sm">Go-to-market strategy, user acquisition, activation/retention</p>
+              <span className="flex flex-row mt-2"> <CircleCheck /><p className="lg:text-l  text-[13px] font-bold  ml-2 text-[#d8d8d8]">Data-Driven Approach</p></span>
+              <p className="ml-8 lg:mt-1 sm:mt-0 text-[#d8d8d8] text-sm">Our growth strategies stem from deep analytics, not guesswork. You get proven, data-backed solutions customized for your business.</p>
+
+
             </div>
             <div className="md:flex gap-4  hidden ">
               <motion.div
