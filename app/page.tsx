@@ -115,7 +115,7 @@ export default function Home() {
           <br />scale your business
         </div>
         <p className="md:mt-4 mt-1   md:w-auto w-[80%]  md:text-lg text-base  font-normal  text-neutral-300 max-w-[40rem] text-center mx-auto px-4">
-        It's time to make your budget count, Build & Scale your business with the ROI which was missing.  ROI-driven solutions for your eCommerce business or SaaS/digital product.
+        It&apos;s time to make your budget count, Build & Scale your business with the ROI which was missing.  ROI-driven solutions for your eCommerce business or SaaS/digital product.
         </p>
         <img src="/logo/image1.png" className="lg:w-[50rem] w-[25rem] sm:w-[35rem] md:mt-12 m-auto lg:h-full mt-8" style={{ boxShadow: "0 0 30px rgba(152,106,242,0.4)", height: "100%" }} alt="" />
 
@@ -148,7 +148,7 @@ export default function Home() {
 
               <br />
               <br />
-              Maybe that’s you: it would be our honour to find out. Schedule your FREE discovery call below. </p>
+              Maybe that&apos;s you: it would be our honour to find out. Schedule your FREE discovery call below. </p>
           </div>
 
         </div>
