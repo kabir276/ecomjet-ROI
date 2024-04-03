@@ -131,7 +131,7 @@ export default function Home() {
            Schedule a call now!
         </Link>
 
-        <div className="w-full pt-20">
+        <div className="w-full lg:pt-20 pt-5">
           <SliderOne />
         </div>
         <div className="lg:mt-16 mt-8" style={{ background: '' }}>
