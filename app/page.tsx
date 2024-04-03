@@ -128,7 +128,7 @@ export default function Home() {
            focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 
             focus:ring-offset-slate-50 "
         >
-          Book a call
+           Schedule a call now!
         </Link>
 
         <div className="w-full pt-20">
