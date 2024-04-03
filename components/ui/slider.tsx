@@ -24,7 +24,7 @@ const SliderOne = () => {
   if (isMediumScreen) {
     settings.slidesToShow = 1.67;
   } else if (isSmallScreen) {
-    settings.slidesToShow = 1;
+    settings.slidesToShow = 1.45;
   }
 
   return (
@@ -39,7 +39,21 @@ const SliderOne = () => {
               width={500}
               height={500}
               className="
-                  rounded-2xl
+                  rounded-2xl 
+                      "
+            />
+          </div>
+        </>
+        <>
+          <div className="rounded-md px-2 md:p-10">
+            <Image
+              priority
+              src="/images/business.jpeg"
+              alt="logo"
+              width={500}
+              height={500}
+              className="
+                  rounded-2xl 
                       "
             />
           </div>
@@ -60,20 +74,7 @@ const SliderOne = () => {
           </div>
         </>
 
-        <>
-          <div className="rounded-md px-2 md:p-10">
-            <Image
-              priority
-              src="/images/small-business-3.webp"
-              alt="logo"
-              width={500}
-              height={500}
-              className="
-                  rounded-2xl 
-                      "
-            />
-          </div>
-        </>
+      
 
         <>
           <div className="rounded-md px-2 md:p-10">
@@ -103,7 +104,7 @@ const SliderOne = () => {
                       "
             />
           </div>
-        </>
+        </> 
       </Slider>
     </div>
   );
