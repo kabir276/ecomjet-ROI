@@ -122,8 +122,11 @@ export default function Home() {
         <Link
           href={"/book"}
           className="cursor-pointer 
-          flex items-center 
-          justify-center border rounded-full w-48 p-2  mx-auto my-6 text-white "
+          flex items-center  rounded-3xl w-64 p-2  mx-auto my-6  md:h-14 h-8  animate-shimmer justify-center 
+          border-[1.8px] border-[rgba(203,106,242,0.34)] bg-[linear-gradient(110deg,#000103,45%,rgb(152,106,242,0.2),55%,#000103)] 
+          bg-[length:200%_100%] px-3 md:px-6 text-base md:text-xl font-medium text-[rgba(225,184,252,0.72)] transition-colors
+           focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 
+            focus:ring-offset-slate-50 "
         >
           Book a call
         </Link>
