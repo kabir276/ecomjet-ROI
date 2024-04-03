@@ -24,7 +24,7 @@ const SliderOne = () => {
   if (isMediumScreen) {
     settings.slidesToShow = 1.67;
   } else if (isSmallScreen) {
-    settings.slidesToShow = 1.45;
+    settings.slidesToShow = 1.65;
   }
 
   return (
