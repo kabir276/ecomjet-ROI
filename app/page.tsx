@@ -51,9 +51,9 @@ export default function Home() {
               alt="Logo"
               width={100}
               height={100}
-              className="w-10 h-10 md:w-20 md:h-20 flex justify-center"
+              className="w-10 h-10 md:w-20 md:h-20 flex justify-center m-auto"
             />
-            <p className={`lg:text-3xl text-xl lg:font-semibold font-medium m-auto p-3 `} style={{ color: "rgb(152,106,242)" }}>Ecom Jet ROI</p>
+            <p className={`lg:text-3xl text-lg align-middle lg:font-semibold font-medium m-auto p-3 `} style={{ color: "rgb(152,106,242)" }}>Ecom Jet ROI</p>
 
           </Link>
         </div>
@@ -104,20 +104,20 @@ export default function Home() {
 
       </div>
 
-      <Spotlight className="hidden md:flex md:-top-80 left-80  " fill="rgba(151,106,242,0.24)" />
+      <Spotlight className="  md:flex md:-top-80 top-54  md:left-80 left-52 -top-56 " fill="rgba(151,106,242,0.64)" />
       <div className="p-4 mx-auto relative z-10 w-full pt-10 md:pt-20 px-2">
         <div
-          className="text-5xl pb-5 md:text-7xl px-6 text-center  bg-clip-text text-transparent 
+          className="text-[32px] pb-5 md:text-7xl px-0 text-center  bg-clip-text text-transparent 
              bg-gradient-to-b from-neutral-50
               to bg-[rgba(151,106,242,0.63)] bg-opacity-50"
         >
           Create, grow, and
           <br />scale your business
         </div>
-        <p className="md:mt-4 mt-1   md:w-auto w-[80%]  md:text-lg text-[14px]  font-normal  text-neutral-300 md:max-w-[40rem] max-w-[24rem] text-center mx-auto px-4">
+        <p className="md:mt-4 mt-[5px]   md:w-auto w-[100%]  md:text-lg text-[14px]  font-normal  text-neutral-300 md:max-w-[40rem] max-w-[24rem] text-center mx-auto px-4">
           It&apos;s time to make your budget count, Build & Scale your business with the ROI which was missing.  ROI-driven solutions for your eCommerce business or SaaS/digital product.
         </p>
-        <img src="/logo/image1.png" className="lg:w-[50rem] w-[25rem] sm:w-[35rem] md:mt-12 m-auto lg:h-full mt-8" style={{ boxShadow: "0 0 30px rgba(152,106,242,0.4)", height: "100%" }} alt="" />
+        <img src="/logo/image1.png" className="lg:w-[50rem] w-[19.5rem] sm:w-[35rem] h-auto md:mt-12 m-auto lg:h-full mt-8" style={{ boxShadow: "0 0 30px rgba(152,106,242,0.4)", height: "100%" }} alt="" />
 
         <Link
           href={"/book"}
