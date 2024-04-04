@@ -17,12 +17,13 @@ const WebsiteDesign = () => {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4  py-10   ">
                 <div className="grid gap-4  ">
                     <div>
-                        <Image
+                    <Image
                             width={500}
                             height={500}
                             priority
-                            className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg" alt="" />
-                    </div>
+                            className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg" alt="" />
+                   
+                        </div>
                     <div>
                         <Image
                             width={500}
@@ -35,8 +36,9 @@ const WebsiteDesign = () => {
                             width={500}
                             height={500}
                             priority
-                            className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg" alt="" />
+                            className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg" alt="" />
                     </div>
+                    
                 </div>
                 <div className="grid gap-4 " >
                     <div>
@@ -44,21 +46,21 @@ const WebsiteDesign = () => {
                             width={500}
                             height={500}
                             priority
-                            className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg" alt="" />
+                            className="h-auto max-w-full rounded-lg" src="https://cdn.dribbble.com/userupload/7911274/file/original-303f2cd0ffcca29c5fa4602ad542ba15.png?resize=752x" alt="" />
                     </div>
                     <div>
                         <Image
                             width={500}
                             height={500}
                             priority
-                            className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg" alt="" />
+                            className="h-auto max-w-full rounded-lg" src="/images/Cover (1).png" alt="" />
                     </div>
                     <div>
                         <Image
                             width={500}
                             height={500}
                             priority
-                            className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg" alt="" />
+                            className="h-auto max-w-full rounded-lg" src="https://cdn.dribbble.com/users/1997192/screenshots/15428651/media/53a94a1e3084ad0cbd654cd60dc866e9.png" alt="" />
                     </div>
                 </div>
                 <div className="grid gap-4 ">
@@ -74,7 +76,7 @@ const WebsiteDesign = () => {
                             width={500500}
                             height={500500}
                             priority
-                            className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg" alt="" />
+                            className="h-auto max-w-full rounded-lg" src="https://cdn.dribbble.com/userupload/13896519/file/original-897bd5c1d6ac2389e13015cec579d2ec.png?resize=752x" alt="" />
                     </div>
                     <div>
                         <Image
@@ -86,12 +88,15 @@ const WebsiteDesign = () => {
                 </div>
                 <div className="grid gap-4 ">
                     <div>
-                        <Image
+                    <Image
                             width={500}
                             height={500}
                             priority
-                            className="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg" alt="" />
+                    
+                    className="h-auto max-w-full rounded-lg" src="https://cdn.dribbble.com/users/5973514/screenshots/20357623/media/4d714d6c7881b98e381e0072a1358b28.png?resize=1600x1200&vertical=center" alt="" />
                     </div>
+                
+
                     <div>
                         <Image
                             width={500}
@@ -108,9 +113,9 @@ const WebsiteDesign = () => {
                     </div>
                 </div>
   
-
+                </div>
             </div>
-        </div>);
+       );
 }
 
 export default WebsiteDesign;
