@@ -72,7 +72,7 @@ export function CardPattern({ mouseX, mouseY, randomString }: any) {
         className="absolute inset-0 rounded-2xl opacity-0 mix-blend-overlay  group-hover/card:opacity-100"
         style={style}
       >
-        <p className="absolute inset-x-0 text-xs h-full break-words whitespace-pre-wrap text-white font-mono font-bold transition duration-500">
+        <p className="absolute inset-x-0 text-[10px] align-middle ml-[3.5px] h-full break-words whitespace-pre-wrap text-white font-mono font-bold transition duration-500">
           {randomString}
         </p>
       </motion.div>
@@ -81,9 +81,9 @@ export function CardPattern({ mouseX, mouseY, randomString }: any) {
 }
 
 const characters =
-  " ecomjetroi ";
+  " EcomjetROI";
 export const generateRandomString = (length: number) => {
-  let result = " ecomjetroi";
+  let result = "EcomjetROI";
   for (let i = 0; i < length; i++) {
     result += characters;
   }
