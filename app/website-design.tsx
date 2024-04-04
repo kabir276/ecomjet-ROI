@@ -46,7 +46,7 @@ const WebsiteDesign = () => {
                             width={500}
                             height={500}
                             priority
-                            className="h-auto max-w-full rounded-lg" src="https://cdn.dribbble.com/userupload/7911274/file/original-303f2cd0ffcca29c5fa4602ad542ba15.png?resize=752x" alt="" />
+                            className="h-auto max-w-full rounded-lg" src="https://cdn.dribbble.com/userupload/7139256/file/original-d2a495ffc76d15e43a91d2bb79f901c9.jpg?resize=1280x960" alt="" />
                     </div>
                     <div>
                         <Image
