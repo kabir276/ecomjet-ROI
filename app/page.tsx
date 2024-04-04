@@ -139,30 +139,30 @@ export default function Home() {
             {/* done */}
           </div>
           <div className="flex justify-center text-center flex-col ">
-            <p className="lg:text-7xl text-2xl sm:text-4xl bg-clip-text text-transparent bg-gradient-to-b from-[rgb(109,35,255)]
+            <p className="lg:text-8xl text-4xl sm:text-4xl bg-clip-text text-transparent bg-gradient-to-b from-[rgb(109,35,255)]
               to bg-[#ffffffd0] " style={{ color: "" }}>What we offer?</p>
             {/* <p className="lg:text-3xl text-[14px] sm:text-xl lg:mt-4 mt-1 sm:mt-2 sm:px-1 bg-[rgb(126,132,182)] lg:w-[20rem] w-[9rem] sm:w-[14rem] text-center m-auto" style={{ color: "white" }}>PAID ADVERTISING</p> */}
           </div>
-          <div className="flex flex-row justify-between m-auto lg:p-32 p-8 sm:p-14 -mt-[1rem] sm:-mt-[2rem] lg:-mt-[5rem] ">
-            <img src="/logo/image2.png" className="lg:w-[30rem] sm:w-[16rem] md:w-[18rem]  w-[12rem] h-[100%]" alt="" />
-            <div>
-              <p className="lg:text-lg align-middle  md:text-[16px] sm:text-[14px] text-[10px] text-left ml-8 mb-4" style={{ color: "rgb(186,196,231,0.9)" }}>At EcomJetROI, we provide comprehensive, ROI-driven solutions to accelerate growth for your eCommerce business or SaaS/digital product.</p>
+          <div className="flex flex-col md:flex-row justify-between m-auto lg:p-32 p-4 sm:p-14 -mt-[1rem] sm:-mt-[2rem] lg:-mt-[5rem] ">
+            <img src="/logo/image2.png" className="lg:w-[30rem] sm:w-[16rem] md:w-[18rem]  w-[12rem] h-[100%] mx-auto" alt="" />
+            <div className=" m-auto p-5">
+              <p className="lg:text-lg align-middle  md:text-[16px] sm:text-[14px] text-[10px] text-left  md:ml-8 mb-4" style={{ color: "rgb(186,196,231,0.9)" }}>At EcomJetROI, we provide comprehensive, ROI-driven solutions to accelerate growth for your eCommerce business or SaaS/digital product.</p>
 
-              <p className="lg:text-base align-middle  md:text-[16px] sm:text-[14px] text-[10px] text-left ml-8 text-[#f3e5ff]">ECommerce Growth Engines</p>
+              <p className="lg:text-base align-middle  md:text-[16px] sm:text-[14px] text-[10px] text-left md:ml-8 text-[#f3e5ff]">ECommerce Growth Engines</p>
 
-              <p className="lg:text-base align-middle  md:text-[16px] sm:text-[14px] text-[10px] text-left ml-8 mb-4" style={{ color: "rgb(186,196,231,0.8)" }}>We are here to build and skyrocket your eCommerce business through paid traffic and sales funnels with tailored strategies to scale your sales to the next level.</p>
+              <p className="lg:text-base align-middle  md:text-[16px] sm:text-[14px] text-[10px] text-left md:ml-8 mb-4" style={{ color: "rgb(186,196,231,0.8)" }}>We are here to build and skyrocket your eCommerce business through paid traffic and sales funnels with tailored strategies to scale your sales to the next level.</p>
 
 
-              <p className="lg:text-base align-middle  md:text-[16px] sm:text-[14px] text-[10px] text-left ml-8 text-[#f3e5ff]" >SaaS/Digital Product Expertise
+              <p className="lg:text-base align-middle  md:text-[16px] sm:text-[14px] text-[10px] text-left md:ml-8 text-[#f3e5ff]" >SaaS/Digital Product Expertise
               </p>
 
-              <p className="lg:text-base align-middle  md:text-[16px] sm:text-[14px] text-[10px] text-left ml-8 mb-4" style={{ color: "rgb(186,196,231,0.8)" }}>Whether you need to develop a powerful web app or SaaS platform or need a complete go-to-market strategy for user acquisition - our elite teams have you covered. From engineering to growth marketing, we ensure your digital product delivers maximum ROI.</p>
+              <p className="lg:text-base align-middle  md:text-[16px] sm:text-[14px] text-[10px] text-left md:ml-8 mb-4" style={{ color: "rgb(186,196,231,0.8)" }}>Whether you need to develop a powerful web app or SaaS platform or need a complete go-to-market strategy for user acquisition - our elite teams have you covered. From engineering to growth marketing, we ensure your digital product delivers maximum ROI.</p>
 
 
-              <p className="lg:text-base align-middle  md:text-[16px] sm:text-[14px] text-[10px] text-left ml-8 text-[#f3e5ff]" >The Ideal Client For Us
+              <p className="lg:text-base align-middle  md:text-[16px] sm:text-[14px] text-[10px] text-left md:ml-8 text-[#f3e5ff]" >The Ideal Client For Us
               </p>
 
-              <p className="lg:text-base align-middle  md:text-[16px] sm:text-[14px] text-[10px] text-left ml-8" style={{ color: "rgb(186,196,231,0.8)" }}>We look for clients seeking an accountable, ROI-focused partnership. Clients who value data-driven strategies, agile execution, and transparent reporting. If that&apos;s you, it would be our honor to explore working together. Schedule your FREE discovery call below.</p>
+              <p className="lg:text-base align-middle  md:text-[16px] sm:text-[14px] text-[10px] text-left md:ml-8" style={{ color: "rgb(186,196,231,0.8)" }}>We look for clients seeking an accountable, ROI-focused partnership. Clients who value data-driven strategies, agile execution, and transparent reporting. If that&apos;s you, it would be our honor to explore working together. Schedule your FREE discovery call below.</p>
             </div>
           </div>
 
