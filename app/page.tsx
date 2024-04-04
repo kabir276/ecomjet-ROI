@@ -223,17 +223,18 @@ export default function Home() {
 
         </div>
 
-        <div className="flex flex-col bg-[#c4c4c4]   rounded-3xl mt-8" >
+        <div className="flex flex-col bg-[#e4e4e4]   rounded-3xl mt-8" >
           <div className="">
-            <p className="lg:text-5xl  text-2xl justify-center font-semibold lg:mt-[2rem] flex"><br />Results That Speak for Themselves ...</p>
+            <p className="lg:text-5xl  text-center text-2xl justify-center font-semibold lg:mt-[2rem] flex"><br />Results That Speak for Themselves ...</p>
+
           </div>
           <div className="flex flex-row justify-center lg:mt-20 mt-5 p-10">
-            <img src="/logo/image3.jpg" style={{ boxShadow: "0 0 10px black" }} className="lg:h-[90vh] h-[50vh] w-[9rem] mr-3 sm:h-[60vh] sm:w-[11rem] sm:mr-5 lg:w-[18rem] lg:mr-8" alt="" />
+            <img src="/logo/image3.jpg" style={{ boxShadow: "0 0 10px black" }} className="lg:h-[90vh] h-[100%] w-[6rem] -ml-5 mr-3 sm:h-[60vh] sm:w-[11rem] sm:mr-5 lg:w-[18rem] lg:mr-8" alt="" />
             <div className="felx flex-col">
-              <img src="/logo/image4.jpg" style={{ boxShadow: "0 0 10px black" }} className="lg:h-[50vh] h-[25vh]  sm:-mt-5 sm:h-[30vh]  -mt-3 lg:ml-3 lg:-mt-8" alt="" />
-              <img src="/logo/image5.jpg" style={{ boxShadow: "0 0 10px black" }} className="lg:h-[50vh] h-[25vh]  w-[9rem] mt-8 sm:mt-8 sm:h-[30vh] sm:w-[11rem] lg:mt-8  lg:w-[18rem]" alt="" />
+              <img src="/logo/image4.jpg" style={{ boxShadow: "0 0 10px black" }} className="lg:h-[50vh] h-[18vh]  sm:-mt-5 sm:h-[30vh]  -mt-3 lg:ml-3 lg:-mt-8" alt="" />
+              <img src="/logo/image5.jpg" style={{ boxShadow: "0 0 10px black" }} className="lg:h-[50vh] h-[15vh]  mt-3 sm:mt-8 sm:h-[30vh] sm:w-[11rem] lg:mt-8  lg:w-[18rem]" alt="" />
             </div>
-            <img src="/logo/image6.jpg" style={{ boxShadow: "0 0 10px black" }} className="lg:h-[70vh] lg:ml-8 h-[40vh] ml-3 sm:h-[50vh]  sm:mr-5 " alt="" />
+            <img src="/logo/image6.jpg" style={{ boxShadow: "0 0 10px black" }} className="lg:h-[70vh] lg:ml-8 h-[25vh] ml-3 -mr-5 sm:h-[50vh]  sm:mr-5 " alt="" />
           </div>
           <br />
           <br />
