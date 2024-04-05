@@ -18,37 +18,37 @@ export const projects = [
       },
       {
         icon : <div className="bg-blue-100 p-4 rounded-full"><PiStorefront className="w-8 h-8 text-blue-600" /></div>,
-        title: "E-commerce Store",
+        title: "Ecom Marketing Mastery",
         description:
-          "From small stores to large online retailers, we have the expertise to build a store that will help you grow your business.",
+          "Data-driven paid media campaigns, conversion-focused ad strategies, precision audience targeting, full-funnel nurturing.          ",
        
       },
       {
         icon : <div className="bg-blue-100 p-4 rounded-full"><PiLock className="w-8 h-8 text-blue-600" /></div>,
-        title: "Authentication",
+        title: "SaaS & Web App Development",
         description:
-          "Secure authentication solutions for your website or app. We use the latest technology to keep your data safe.",
+          "Our agile product teams have the technical chops to transform your SaaS vision into reality through custom web app development for desktop and mobile.          ",
       
       },
       {
         icon : <div className="bg-blue-100 p-4 rounded-full"><PiMegaphone className="w-8 h-8 text-blue-600" /></div>,
-        title: "Social Media",
+        title: "Digital Brand Strategy & Design",
         description:
-          "We offer social media management and ad creation services. We can help you grow your social media presence and reach new customers.",
+          "Let our creative experts craft your unique brand identity, then extend it across your digital presence through delightful UX/UI design for websites, apps, ads and more.",
       
       },
       {
         icon : <div className="bg-blue-100 p-4 rounded-full"><PiAppStoreLogo className="w-8 h-8 text-blue-600" /></div>,
-        title: "App Development",
+        title: "Marketing for SaaS Products",
         description:
-          "We build custom mobile apps for iOS and Android. Our apps are designed to be user-friendly and performant.",
+          "From go-to-market planning to conversion rate optimization to automated marketing journeys, our SaaS marketers ensure your digital product maximizes user acquisition, activation and retention.",
       
       },
       {
         icon : <div className="bg-blue-100 p-4 rounded-full"><PiHeadsetFill className="w-8 h-8 text-blue-600" /></div>,
-        title: "Support",
+        title: "Support & Growth Consultation",
         description:
-          "We offer support for all our clients. We are here to help you with any issues or questions you may have.",
+          "Our partnership includes dedicated account management and on-demand strategic support to ensure seamless operations and sustained growth for your business.          ",
      
       },
 ];

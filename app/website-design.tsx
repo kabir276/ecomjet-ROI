@@ -46,7 +46,7 @@ const WebsiteDesign = () => {
                             width={500}
                             height={500}
                             priority
-                            className="h-auto max-w-full rounded-lg" src="https://cdn.dribbble.com/userupload/7139256/file/original-d2a495ffc76d15e43a91d2bb79f901c9.jpg?resize=1280x960" alt="" />
+                            className="h-auto max-w-full rounded-lg" src="/images/image2-1.jpg" alt="" />
                     </div>
                     <div>
                         <Image
@@ -60,7 +60,7 @@ const WebsiteDesign = () => {
                             width={500}
                             height={500}
                             priority
-                            className="h-auto max-w-full rounded-lg" src="https://cdn.dribbble.com/users/1997192/screenshots/15428651/media/53a94a1e3084ad0cbd654cd60dc866e9.png" alt="" />
+                            className="h-auto max-w-full rounded-lg" src="/images/image2-3.png" alt="" />
                     </div>
                 </div>
                 <div className="grid gap-4 ">
@@ -76,7 +76,7 @@ const WebsiteDesign = () => {
                             width={500500}
                             height={500500}
                             priority
-                            className="h-auto max-w-full rounded-lg" src="https://cdn.dribbble.com/userupload/13896519/file/original-897bd5c1d6ac2389e13015cec579d2ec.png?resize=752x" alt="" />
+                            className="h-auto max-w-full rounded-lg" src="/images/image3-2.png" alt="" />
                     </div>
                     <div>
                         <Image
@@ -93,7 +93,7 @@ const WebsiteDesign = () => {
                             height={500}
                             priority
                     
-                    className="h-auto max-w-full rounded-lg" src="https://cdn.dribbble.com/users/5973514/screenshots/20357623/media/4d714d6c7881b98e381e0072a1358b28.png?resize=1600x1200&vertical=center" alt="" />
+                    className="h-auto max-w-full rounded-lg" src="/images/image4-1.png" alt="" />
                     </div>
                 
 

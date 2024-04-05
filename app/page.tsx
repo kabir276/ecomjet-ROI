@@ -223,9 +223,14 @@ export default function Home() {
 
         </div>
 
-        <div className="flex flex-col bg-[#e4e4e4]   rounded-3xl mt-8" >
+        <div className="flex flex-col bg-[#F6F5F4]   rounded-3xl mt-8" >
           <div className="">
-            <p className="lg:text-5xl  text-center text-2xl justify-center font-semibold lg:mt-[2rem] flex"><br />Results That Speak for Themselves ...</p>
+            <p className="lg:text-5xl  text-center text-2xl justify-center font-semibold lg:mt-[2rem] flex"><br />  <div >
+            Results That Speak for
+            </div>
+            <div className=" text-gradient  bg-clip-text bg-gradient-to-b from-purple-500 to-[#a895ff] bg-opacity-50 text-transparent">
+             Themselves ... 
+            </div></p>
 
           </div>
           <div className="flex flex-row justify-center lg:mt-20 mt-5 p-10">
