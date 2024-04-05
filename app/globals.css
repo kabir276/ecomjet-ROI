@@ -78,7 +78,7 @@ body {
   overflow: auto;
  
  }
- .buttonfirst::-webkit-scrollbar{
+ body::-webkit-scrollbar{
    display: none;
  }
  .buttonfirst {
