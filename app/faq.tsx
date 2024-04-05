@@ -22,15 +22,14 @@ const FAQS = () => {
             </div>
             <Accordion type="single" collapsible>
     <AccordionItem value="item-1">
-      <AccordionTrigger>What is Bird?</AccordionTrigger>
+      <AccordionTrigger>What is Ecom Jet ROI?</AccordionTrigger>
       <AccordionContent>
-        Bird is a full fledge marketing agency that specializes in branding, web design, and digital marketing.
-      </AccordionContent>
+      At Ecom Jet ROI we help Businesses to Build, Grow & Scale</AccordionContent>
     </AccordionItem>
     <AccordionItem value="item-2">
       <AccordionTrigger>How to start ?</AccordionTrigger>
       <AccordionContent>
-        You can start by contacting us. We will get back to you within 24 hours.
+      You can start by sending us a mail at gourav@ecomjetroi.com  Or you can schedule a Consultation Call with us.
       </AccordionContent>
     </AccordionItem>
     <AccordionItem value="item-3">
@@ -48,7 +47,7 @@ const FAQS = () => {
     Support ?
         </AccordionTrigger>
       <AccordionContent>
-        We offer Monday-Friday support for all our clients.
+      You can drop us an email at gourav@ecomjetroi.com.
       </AccordionContent>
     </AccordionItem>
   </Accordion>
