@@ -420,8 +420,8 @@ export default function Home() {
 
         <div className="flex flex-col bg-[#F6F5F4]   rounded-3xl mt-8" >
           <div className="">
-            <p className="lg:text-5xl  text-center text-2xl justify-center font-semibold lg:mt-[2rem] flex"><br />  <div >
-            Results That Speak for
+            <p className="lg:text-6xl  text-center text-lg mt-6  justify-center font-extrabold lg:mt-[2rem] flex"><br />  <div >
+            Results That Speak for&nbsp;
             </div>
             <div className=" text-gradient  bg-clip-text bg-gradient-to-b from-purple-500 to-[#a895ff] bg-opacity-50 text-transparent">
              Themselves ... 
