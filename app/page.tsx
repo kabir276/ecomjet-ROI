@@ -119,13 +119,7 @@ export default function Home() {
         </p>
         <img src="/logo/image1.png" className="lg:w-[50rem] w-[19.5rem] sm:w-[35rem] h-auto md:mt-12 m-auto lg:h-full mt-8" style={{ boxShadow: "0 0 30px rgba(152,106,242,0.4)", height: "100%" }} alt="" />
 
-
-
-         
-  
-
-
-
+{/* 
         <button
           className="buttonfirst cursor-pointer 
            w-64 p-2  mx-auto my-6 justify-center 
@@ -134,17 +128,10 @@ export default function Home() {
         >
            Schedule a call now!
         </button>
+ */}
 
 
-
-
-
-
-
-
-
-
-        <button className="button-str m-auto text-base md:text-xl font-semibold ">
+        <button className="button-str m-auto text-base md:text-xl font-semibold mt-16">
         Schedule a call now!
       <div className="star-1">
         <svg
@@ -242,15 +229,6 @@ export default function Home() {
         </svg>
       </div>
     </button>
-
-
-
-
-
-
-
-
-
         <div className="w-full lg:pt-20 pt-5">
           <SliderOne />
         </div>
@@ -339,8 +317,105 @@ export default function Home() {
               </motion.div>
             </div>
           </div>
-          <button onClick={() => { scrollFunc() }} className={` lg:text-2xl   rounded-xl lg:p-3  p-2 text-xl m-auto text-center justify-center flex `} style={{ color: "#fff", background: "rgb(84,108,196)" }}>Schedule Call</button>
-
+          {/* <button onClick={() => { scrollFunc() }} className={` lg:text-2xl   rounded-xl lg:p-3  p-2 text-xl m-auto text-center justify-center flex `} style={{ color: "#fff", background: "rgb(84,108,196)" }}></button> */}
+          <button onClick={() => { scrollFunc() }} className="button-str m-auto text-base md:text-xl font-semibold ">
+          Schedule a quick call now!
+      <div className="star-1">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          xmlSpace="preserve"
+          version="1.1"
+          style={{ shapeRendering: 'geometricPrecision', textRendering: 'geometricPrecision',imageRendering:"crisp-edges", fillRule: 'evenodd', clipRule: 'evenodd' }}
+          viewBox="0 0 784.11 815.53"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <defs></defs>
+          <g id="Layer_x0020_1">
+            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+            <path
+              className="fil0"
+              d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+            ></path>
+          </g>
+        </svg>
+      </div>
+      <div className="star-2">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          xmlSpace="preserve"
+          version="1.1"
+          style={{ shapeRendering: 'geometricPrecision', textRendering: 'geometricPrecision', imageRendering:"crisp-edges", fillRule: 'evenodd', clipRule: 'evenodd' }}
+          viewBox="0 0 784.11 815.53"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <defs></defs>
+          <g id="Layer_x0020_1">
+            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+            <path
+              className="fil0"
+              d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+            ></path>
+          </g>
+        </svg>
+      </div>
+      <div className="star-3">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          xmlSpace="preserve"
+          version="1.1"
+          style={{ shapeRendering: 'geometricPrecision', textRendering: 'geometricPrecision', imageRendering:"crisp-edges", fillRule: 'evenodd', clipRule: 'evenodd' }}
+          viewBox="0 0 784.11 815.53"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <defs></defs>
+          <g id="Layer_x0020_1">
+            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+            <path
+              className="fil0"
+              d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+            ></path>
+          </g>
+        </svg>
+      </div>
+      <div className="star-4">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          xmlSpace="preserve"
+          version="1.1"
+          style={{ shapeRendering: 'geometricPrecision', textRendering: 'geometricPrecision', imageRendering:"crisp-edges", fillRule: 'evenodd', clipRule: 'evenodd' }}
+          viewBox="0 0 784.11 815.53"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <defs></defs>
+          <g id="Layer_x0020_1">
+            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+            <path
+              className="fil0"
+              d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+            ></path>
+          </g>
+        </svg>
+      </div>
+      <div className="star-5">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          xmlSpace="preserve"
+          version="1.1"
+          style={{ shapeRendering: 'geometricPrecision', textRendering: 'geometricPrecision', imageRendering:"crisp-edges", fillRule: 'evenodd', clipRule: 'evenodd' }}
+          viewBox="0 0 784.11 815.53"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <defs></defs>
+          <g id="Layer_x0020_1">
+            <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+            <path
+              className="fil0"
+              d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+            ></path>
+          </g>
+        </svg>
+      </div>
+    </button>
         </div>
 
         <div className="flex flex-col bg-[#F6F5F4]   rounded-3xl mt-8" >
