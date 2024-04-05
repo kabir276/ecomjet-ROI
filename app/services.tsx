@@ -7,7 +7,7 @@ const Services = () => {
    
         <div className="text-4xl pb-5 md:text-7xl text-center
          bg-clip-text text-transparent bg-gradient-to-b
-          from-blue-500 to-neutral-50 bg-opacity-50 mt-20">
+          from-[rgb(147,51,234)] to-[#E9D5FF] bg-opacity-50 mt-20">
          Streamline Your Business With Our Services
         </div>
         <p className="mt-4 text-lg font-normal
