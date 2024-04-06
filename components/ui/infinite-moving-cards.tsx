@@ -97,7 +97,7 @@ export const InfiniteMovingCards = ({
             key={item.name}
           >
             <blockquote>
-            <img src="/logo/imageicon1-removebg-preview (1).png" className="w-6 h-4 " style={{objectFit:"contain",mixBlendMode:"color-burn"}} alt="" />
+            <img src="/logo/imageicon1-removebg-preview (1).png" className="w-7 h-5 " style={{objectFit:"contain",mixBlendMode:"color-burn"}} alt="" />
               <div
                 aria-hidden="true"
                 className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
@@ -110,9 +110,7 @@ export const InfiniteMovingCards = ({
                   <span className=" text-sm leading-[1.6] text-gray-400 font-normal">
                     {item.name}
                   </span>
-                  <span className=" text-sm leading-[1.6] text-gray-400 font-normal">
-                    {item.title}
-                  </span>
+                  
                 </span>
               </div>
             </blockquote>
