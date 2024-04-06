@@ -47,7 +47,7 @@ const FAQS = () => {
     Support ?
         </AccordionTrigger>
       <AccordionContent>
-      You can drop us an email at gourav@ecomjetroi.com.
+      You can drop us an email at gourav@ecomjetroi.com .
       </AccordionContent>
     </AccordionItem>
   </Accordion>
