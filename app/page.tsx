@@ -243,8 +243,8 @@ export default function Home() {
             {/* <p className="lg:text-3xl text-[14px] sm:text-xl lg:mt-4 mt-1 sm:mt-2 sm:px-1 bg-[rgb(126,132,182)] lg:w-[20rem] w-[9rem] sm:w-[14rem] text-center m-auto" style={{ color: "white" }}>PAID ADVERTISING</p> */}
           </div>
           
-          <div className="flex flex-col md:flex-row justify-between m-auto lg:p-12 lg:pt-32 p-4 sm:p-14 -mt-[1rem] sm:-mt-[2rem] lg:-mt-[5rem] ">
-            <img src="/logo/image2.png" className="lg:w-[30rem] sm:w-[16rem] md:w-[18rem]  w-[12rem] h-[100%] mx-auto" alt="" />
+          <div className="flex flex-col md:flex-row justify-between m-auto lg:p-16 lg:pt-48 p-4 sm:p-14 -mt-[1rem] sm:-mt-[2rem] lg:-mt-[5rem] ">
+            <img src="/logo/image2.png" className="lg:w-[32rem] sm:w-[16rem] md:w-[18rem]  w-[12rem] h-[100%] mx-auto" alt="" />
             <div className=" m-auto -mt-2">
               <p className="lg:text-2xl align-middle  md:text-[16px] sm:text-[14px] text-[10px] text-left  md:ml-8 mb-4" style={{ color: "rgb(186,196,231,0.9)" }}>At EcomJetROI, we provide comprehensive, ROI-driven solutions to accelerate growth for your eCommerce business or SaaS/digital product.</p>
 
