@@ -266,7 +266,7 @@ export default function Home() {
             </div>
             
           </div>
-          <button  onClick={() => { scrollFunc() }} className="button-str m-auto text-[8px] md:text-xl font-semibold mt-16 " >
+          <button  onClick={() => { scrollFunc() }} className="button-str m-auto text-[8px] md:text-xl font-semibold mt-0 " >
         Schedule Your Free Consultation Call now!
       <div className="star-1">
         <svg
