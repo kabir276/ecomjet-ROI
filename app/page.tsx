@@ -131,8 +131,8 @@ export default function Home() {
  */}
 
 
-        <button  onClick={() => { scrollFunc() }} className="button-str m-auto text-base md:text-xl font-semibold mt-16">
-        Schedule a call now!
+        <button  onClick={() => { scrollFunc() }} className="button-str m-auto text-base md:text-xl font-semibold mt-16 " >
+        Schedule Your Free Consultation Call Now!
       <div className="star-1">
         <svg
           xmlns="http://www.w3.org/2000/svg"
