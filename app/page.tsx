@@ -131,8 +131,8 @@ export default function Home() {
  */}
 
 
-        <button  onClick={() => { scrollFunc() }} className="button-str m-auto text-base md:text-xl font-semibold mt-16 " >
-        Schedule Your Free Consultation Call Now!
+        <button  onClick={() => { scrollFunc() }} className="button-str m-auto text-[8px] md:text-xl font-semibold mt-16 " >
+        Schedule Your Free Consultation Call now!
       <div className="star-1">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -266,8 +266,8 @@ export default function Home() {
             </div>
             
           </div>
-          <button  onClick={() => { scrollFunc() }} className="button-str m-auto text-base md:text-xl font-semibold  mb-10">
-        Schedule a call now!
+          <button  onClick={() => { scrollFunc() }} className="button-str m-auto text-[8px] md:text-xl font-semibold mt-16 " >
+        Schedule Your Free Consultation Call now!
       <div className="star-1">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -419,8 +419,8 @@ export default function Home() {
             </div>
           </div>
           {/* <button onClick={() => { scrollFunc() }} className={` lg:text-2xl   rounded-xl lg:p-3  p-2 text-xl m-auto text-center justify-center flex `} style={{ color: "#fff", background: "rgb(84,108,196)" }}></button> */}
-          <button onClick={() => { scrollFunc() }} className="button-str m-auto text-base md:text-xl font-semibold ">
-          Schedule a quick call now!
+          <button  onClick={() => { scrollFunc() }} className="button-str m-auto text-[8px] md:text-xl font-semibold mt-16 " >
+        Schedule Your Free Consultation Call now!
       <div className="star-1">
         <svg
           xmlns="http://www.w3.org/2000/svg"
