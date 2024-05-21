@@ -234,7 +234,7 @@ export default function Home() {
               &quot; They helped us scale dramatically while maintaining positive ROI. &quot;
             </p>
           </div>
-          <div className="w-18 md:flex md:flex-col hidden  md:-mb-4">
+          <div className="w-18 md:flex md:flex-col hidden  md:-mb-[1.2rem]">
             <img src="/images/rating (2).png" className="h-16 w-16 m-auto -mb-9" alt="" />
             <p className="md:mt-4 mt-[5px]   md:w-auto w-[100%]  md:text-sm text-[14px]  font-normal  text-neutral-300 md:max-w-[20rem] max-w-[14rem] text-center mx-auto p-4">
               &quot;They were very organized in terms of planning, documentation, and project management. &quot;
