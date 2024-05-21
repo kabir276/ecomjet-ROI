@@ -102,7 +102,7 @@ export default function Home() {
       </div>
 
       <Spotlight className="  md:flex md:-top-80 top-54  md:left-80 left-52 -top-56 " fill="rgba(151,106,242,0.64)" />
-      <div className="p-4 mx-auto relative z-10 w-full pt-10 md:pt-20 px-2">
+      <div className="p-4 mx-auto relative z-10 w-full pt-10 md:pt-14 px-2">
         <div
           className="text-[32px] pb-5 md:text-7xl px-0 text-center  bg-clip-text text-transparent 
              bg-gradient-to-b from-neutral-50
@@ -128,7 +128,7 @@ export default function Home() {
  */}
 
 
-        <button  onClick={() => { scrollFunc() }} className="button-str m-auto text-[8px] md:text-xl font-semibold mt-16 " >
+        <button  onClick={() => { scrollFunc() }} className="button-str m-auto text-[8px] md:text-xl font-semibold mt-10 " >
         Schedule Your Free Consultation Call now!
       <div className="star-1">
         <svg
