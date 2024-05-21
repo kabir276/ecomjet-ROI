@@ -226,6 +226,7 @@ export default function Home() {
             </svg>
           </div>
         </button>
+        <br />
         <div className="flex flex-row justify-center gap-1 mt-16">
           <div className="w-18 flex flex-col">
             <img src="/images/rating (2).png" className="h-16 w-16 m-auto -mb-9" alt="" />
