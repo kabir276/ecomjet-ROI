@@ -226,11 +226,11 @@ export default function Home() {
             </svg>
           </div>
         </button>
-        <br />
-        <div className="flex flex-row justify-center gap-1 mt-16">
+        
+        <div className="flex flex-row justify-center gap-1 md:mt-20  ">
           <div className="w-18 flex flex-col">
             <img src="/images/rating (2).png" className="h-16 w-16 m-auto -mb-9" alt="" />
-            <p className="md:mt-4 mt-[5px]   md:w-auto w-[100%]  md:text-sm text-[14px]  font-normal  text-neutral-300 md:max-w-[20rem] max-w-[14rem] text-center mx-auto p-4">
+            <p className="md:mt-4 mt-[5px]   md:w-auto w-[100%]  text-sm  font-normal  text-neutral-300 max-w-[20rem]  text-center mx-auto p-4">
 
               &quot; They helped us scale dramatically while maintaining positive ROI. &quot;
             </p>
