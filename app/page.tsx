@@ -269,7 +269,7 @@ export default function Home() {
             <div className="flex flex-col md:flex-row justify-between m-auto lg:p-16 lg:pt-48 p-4 sm:p-14 -mt-[1rem] sm:-mt-[2rem] lg:-mt-[5rem] ">
               <img src="/logo/image2.png" className="lg:w-[32rem] sm:w-[16rem] md:w-[18rem]  w-[12rem] h-[100%] mx-auto" alt="" />
               <div className=" m-auto -mt-2">
-                <p className="lg:text-2xl align-middle  md:text-[16px] sm:text-[14px] text-[10px] text-left  md:ml-8 mb-4" style={{ color: "rgb(186,196,231,0.9)" }}>At EcomJetROI, we provide comprehensive, ROI-driven solutions to accelerate growth for your eCommerce business or SaaS/digital product.</p>
+                <p className="lg:text-2xl align-middle  md:text-[16px] sm:text-[14px] text-[10px] text-left  md:ml-8 mt-4 sm:-mt-2 mb-4" style={{ color: "rgb(186,196,231,0.9)" }}>At EcomJetROI, we provide comprehensive, ROI-driven solutions to accelerate growth for your eCommerce business or SaaS/digital product.</p>
 
                 <p className="lg:text-xl align-middle  md:text-[16px] sm:text-[14px] text-[10px] text-left md:ml-8 text-[#f3e5ff]">ECommerce Growth Engines</p>
 
