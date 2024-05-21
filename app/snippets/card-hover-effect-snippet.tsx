@@ -1,5 +1,5 @@
 import { HoverEffect } from "@/components/ui/card-hover-effect";
-import { PiAppStoreLogo, PiChartLineUp, PiGraph, PiGraphBold, PiGraphLight, PiGraphThin, PiHeadsetFill, PiLock, PiMegaphone, PiMonitor, PiStorefront } from "react-icons/pi";
+import { PiAppStoreLogo, PiChartLineUp, PiFunnelDuotone, PiFunnelSimpleBold, PiGraph, PiGraphBold, PiGraphLight, PiGraphThin, PiHeadsetFill, PiLock, PiMegaphone, PiMonitor, PiStorefront } from "react-icons/pi";
 
 export function CardHoverEffectDemo() {
   return (
@@ -10,10 +10,10 @@ export function CardHoverEffectDemo() {
 }
 export const projects = [
     {
-        icon : <div className="bg-purple-200 p-4 rounded-full"><PiMonitor className="w-8 h-8 text-purple-600" /></div>,
-        title: "Website Design",
+        icon : <div className="bg-purple-200 p-4 rounded-full"><PiFunnelDuotone className="w-8 h-8 text-purple-600" /></div>,
+        title: "High Converting Funnel",
         description:
-          "We build fully responsive websites that look great on all devices. Our websites are designed to convert visitors into customers.",
+          "We build fully optimized high converting sales funnels, including multiple Marketing channels, Retargeting channels and Upsells & Downsells.",
       
       },
       {
