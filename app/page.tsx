@@ -7,9 +7,6 @@ import Image from "next/image";
 import Link from "next/link";
 
 import WebsiteDesign from "./website-design";
-import GraphicDesign from "./graphic-design";
-import ShopifyStores from "./shopify-stores";
-import Brands from "./brands";
 import Services from "./services";
 import FAQS from "./faq";
 import { useRef } from "react";
@@ -117,7 +114,7 @@ export default function Home() {
         <p className="md:mt-4 mt-[5px]   md:w-auto w-[100%]  md:text-lg text-[14px]  font-normal  text-neutral-300 md:max-w-[40rem] max-w-[24rem] text-center mx-auto px-4">
           It&apos;s time to make your budget count, Build & Scale your business with the ROI which was missing.  ROI-driven solutions for your eCommerce business or SaaS/digital product.
         </p>
-        <img src="/logo/image1.png" className="lg:w-[50rem] w-[19.5rem] sm:w-[35rem] h-auto md:mt-12 m-auto lg:h-full mt-8" style={{ boxShadow: "0 0 30px rgba(152,106,242,0.4)", height: "100%" }} alt="" />
+        {/* <img src="/logo/image1.png" className="lg:w-[50rem] w-[19.5rem] sm:w-[35rem] h-auto md:mt-12 m-auto lg:h-full mt-8" style={{ boxShadow: "0 0 30px rgba(152,106,242,0.4)", height: "100%" }} alt="" /> */}
 
 {/* 
         <button
