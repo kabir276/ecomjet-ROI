@@ -231,21 +231,22 @@ export default function Home() {
           <div className="w-18 flex flex-col">
             <img src="/images/rating (2).png" className="h-16 w-16 m-auto -mb-9"alt="" />
             <p className="md:mt-4 mt-[5px]   md:w-auto w-[100%]  md:text-xs text-[14px]  font-normal  text-neutral-300 md:max-w-[20rem] max-w-[14rem] text-center mx-auto p-4">
-            &quot; It&apos;s time to make your budget count, Build & Scale your business with the ROI which was missing.  ROI-driven solutions for your eCommerce business or SaaS/digital product. &quot;
+          
+           &quot; They helped us scale dramatically while maintaining positive ROI. &quot;
             </p>
           </div>
           <div className="w-18 flex flex-col">
           <img src="/images/rating (2).png" className="h-16 w-16 m-auto -mb-9"alt="" />
 
             <p className="md:mt-4 mt-[5px]   md:w-auto w-[100%]  md:text-xs text-[14px]  font-normal  text-neutral-300 md:max-w-[20rem] max-w-[14rem] text-center mx-auto p-4">
-            &quot; It&apos;s time to make your budget count, Build & Scale your business with the ROI which was missing.  ROI-driven solutions for your eCommerce business or SaaS/digital product. &quot;
+            &quot;They were very organized in terms of planning, documentation, and project management. &quot;
             </p>
           </div>
           <div className="w-18 flex flex-col">
           <img src="/images/rating (2).png" className="h-16 w-16 m-auto -mb-9"alt="" />
 
             <p className="md:mt-4 mt-[5px]   md:w-auto w-[100%]  md:text-xs text-[14px]  font-normal  text-neutral-300 md:max-w-[20rem] max-w-[14rem] text-center mx-auto p-4">
-            &quot; It&apos;s time to make your budget count, Build & Scale your business with the ROI which was missing.  ROI-driven solutions for your eCommerce business or SaaS/digital product. &quot;
+            &quot; Their team was extremely friendly and responsive throughout. &quot;
             </p>
           </div>
 
