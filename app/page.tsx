@@ -64,26 +64,6 @@ export default function Home() {
         >
 
         </div>
-
-        {/* <div className="flex md:hidden">
-            {isDropDownVisible ? (
-                // display an x icon when the drop is visible
-                <div 
-                onClick={toggleDropDown}
-                className="w-8 h-8 text-slate-300 cursor-pointer"
-                >
-                    <X />
-                    <DropDownMenu onClose={closeDropDown} />
-                    </div>
-            ) : (
-                <AlignJustify
-                onClick={toggleDropDown}
-                className="w-8 h-8 text-slate-300 cursor-pointer"
-                />
-            )}
-
-        </div> */}
-
         <div className=" flex">
           <button
             onClick={() => scrollFunc()}
@@ -114,19 +94,6 @@ export default function Home() {
         <p className="md:mt-4 mt-[5px]   md:w-auto w-[100%]  md:text-lg text-[14px]  font-normal  text-neutral-300 md:max-w-[40rem] max-w-[24rem] text-center mx-auto px-4">
           It&apos;s time to make your budget count, Build & Scale your business with the ROI which was missing.  ROI-driven solutions for your eCommerce business or SaaS/digital product.
         </p>
-        {/* <img src="/logo/image1.png" className="lg:w-[50rem] w-[19.5rem] sm:w-[35rem] h-auto md:mt-12 m-auto lg:h-full mt-8" style={{ boxShadow: "0 0 30px rgba(152,106,242,0.4)", height: "100%" }} alt="" /> */}
-
-        {/* 
-        <button
-          className="buttonfirst cursor-pointer 
-           w-64 p-2  mx-auto my-6 justify-center 
-          text-base md:text-xl font-semibold flex "
-          // className=""
-        >
-           Schedule a call now!
-        </button>
- */}
-
 
         <button onClick={() => { scrollFunc() }} className="button-str m-auto text-[8px] md:text-xl font-semibold mt-10 " >
           Schedule Your Free Consultation Call now!
