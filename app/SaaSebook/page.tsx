@@ -10,6 +10,7 @@ import { InfiniteMovingCardsDemo } from "../snippets/infinite-moving-card-snippe
 import CalendlyWidget from "@/components/calendly";
 import * as  z from 'zod';
 import axios from 'axios'
+import Popup from "@/components/popup";
 interface FormErrors {
   firstName?: string;
   email?: string;
@@ -18,6 +19,7 @@ export default function Home() {
   const [formData, setFormData] = useState({ firstName: '', email: '' });
   const [isLoading, setIsLoading] = useState(false);
   const [formErrors, setFormErrors] = useState<FormErrors>({});
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
   const scrollFunc = () => {
     const section = document.getElementById("scheduleCall");
     if (section) {
@@ -43,6 +45,7 @@ export default function Home() {
       if (response.status === 200) {
         console.log('Data added successfully to spreadsheet');
         setIsLoading(false);
+        setIsPopupOpen(true);
         setFormData({ firstName: '', email: '' });
         setFormErrors({ firstName: '', email: '' })
 
@@ -71,6 +74,7 @@ export default function Home() {
 
   return (
     <div className="w-full  md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
+        <Popup isOpen={isPopupOpen} onClose={() => setIsPopupOpen(false)} />
       <div className="p-6 md:p-10 md:pl-16 md:pr-16 flex items-center justify-between z-50">
         <div className="">
           <Link className="cursor-pointer flex flex-row" href="/">
@@ -115,35 +119,35 @@ export default function Home() {
       </div>
 
       <Spotlight className="  md:flex md:-top-80 top-54  md:left-80 left-52 -top-56 h-[100%]" fill="rgba(151,106,242,0.64)" />
-      <div className="p-4 mx-auto relative z-10 w-full px-2">
-        <div className="flex flex-row justify-center p-24 m-auto">
+      <div className="p-4 mx-auto relative z-10 w-full px-2 md:-mt-20">
+        <div className="flex md:flex-row flex-col-reverse justify-center md:p-24 m-auto">
           <div className="px-4">
             <div
-              className="text-[32px] pb-5 md:text-2xl px-0 text-left  bg-clip-text text-transparent 
+              className="text-[20px] md:pb-5 md:text-2xl px-0 md:text-left text-center  bg-clip-text text-transparent 
              bg-gradient-to-b from-[rgba(151,106,242)]
               to bg-[rgba(151,106,242,0.63)] bg-opacity-50"
             >
               THE SAAS MARKETING OS
             </div>
             <div
-              className="text-[32px] pb-5 md:text-5xl px-0 text-left  bg-clip-text text-transparent 
+              className="text-[40px] pb-5 md:text-5xl px-0 md:text-left text-center  bg-clip-text text-transparent 
              bg-[#fff]"
             >
               The Marketing OS <br />
               for SaaS Startups
             </div>
-            <p className="md:mt-4 mt-[5px]   md:w-auto w-[100%]  md:text-[15px] text-[14px]  font-normal  text-neutral-300 md:max-w-[34rem] max-w-[24rem]">
+            <p className="md:mt-4 mt-[5px] text-center md:text-left  m-auto md:w-auto w-[100%]  md:text-[15px] text-[18px]  font-normal  text-neutral-300 md:max-w-[34rem] max-w-[24rem]">
               Get a proven framework to accelerate the growth of your SaaS startup. This is the exact process I&apos;m using to grow Portant to $7 million ARR.
             </p>
             <div >
-              <form onSubmit={handleSubmit} className="flex flex-row gap-4">
+              <form onSubmit={handleSubmit} className="flex md:flex-row flex-col gap-4">
                 <input
                   type="text"
                   name="firstName"
                   placeholder="First Name"
                   value={formData.firstName}
                   onChange={handleInputChange}
-                  className="text-[#d2bcfe] bg-[#ffffff55] p-2 rounded-2xl w-[11rem] text-[8px] md:text-base font-semibold mt-10"
+                  className="text-[#d2bcfe] bg-[#ffffff2b] md:p-2 p-4 rounded-lg w-[80%] h-[3rem] md:h-[3.2rem] m-auto md:w-[11rem] text-[15px] md:text-base font-semibold mt-10"
                 />
                 {formErrors.firstName && <div className="text-[#ff2727]  absolute">{formErrors.firstName}</div>}
                 <input
@@ -152,7 +156,7 @@ export default function Home() {
                   placeholder="Email"
                   value={formData.email}
                   onChange={handleInputChange}
-                  className="text-[#d2bcfe] bg-[#ffffff55] p-2 rounded-2xl w-[11rem] text-[8px] md:text-base font-semibold mt-10"
+                  className="text-[#d2bcfe] bg-[#ffffff2b] md:p-2 p-4 rounded-lg w-[80%] h-[3rem]  md:h-[3.2rem] m-auto md:w-[11rem] text-[15px] md:text-base font-semibold md:mt-10 mt-4"
                 />
                 {formErrors.email && <div className="text-[#ff2727]  absolute">{formErrors.email}</div>}
                 <button type="submit" disabled={isLoading} className="button-str rounded-xl  font-bold mt-10 " >
@@ -266,7 +270,7 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <img src="/images/Black & Purple Marketing Ebook Mockup Instagram Post.png" alt="" className="w-[33rem] h-[auto] m-auto -mt-28" />
+            <img src="/images/Black & Purple Marketing Ebook Mockup Instagram Post.png" alt="" className="w-[33rem] h-[auto] m-auto md:-mt-28" />
           </div>
 
         </div>
