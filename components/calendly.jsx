@@ -13,7 +13,7 @@ const CalendlyWidget = () => {
   }, []);
 
   return (
-    <div className="calendly-inline-widget" data-url="https://calendly.com/gourav_ecomjet_roi/15min" style={{ minWidth: '320px', height: '800px',marginLeft:"-1rem" }} />
+    <div className="calendly-inline-widget" data-url="https://calendly.com/gourav_ecomjet_roi/15min" style={{ minWidth: '320px',marginLeft:"-1rem",height:"100%"}} />
   );
 };
 

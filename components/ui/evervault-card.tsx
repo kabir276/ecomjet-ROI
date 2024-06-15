@@ -81,9 +81,9 @@ export function CardPattern({ mouseX, mouseY, randomString }: any) {
 }
 
 const characters =
-  " Ecomjet-ROI";
+  " EcomjetROI";
 export const generateRandomString = (length: number) => {
-  let result = "Ecomjet-ROI";
+  let result = "EcomjetROI";
   for (let i = 0; i < length; i++) {
     result += characters;
   }

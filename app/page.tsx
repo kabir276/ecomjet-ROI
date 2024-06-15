@@ -542,7 +542,7 @@ export default function Home() {
         <Ebook />
         <div className="" id="scheduleCall" style={{ background: '' }}>
           <div className="flex lg:flex-row flex-col-reverse justify-center md:gap-24 md:p-12  px-8 lg:-mt-[5rem] ">
-            <div className="md:w-[50%] ">
+            <div className="calandly md:w-[50%] overflow:hidden">
               <CalendlyWidget />
             </div>
             <div className="mb-8 lg:mb-0 m-auto md:w-[40%] w-[100%]">
