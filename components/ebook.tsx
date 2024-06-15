@@ -104,7 +104,7 @@ const Ebook = () => {
                                 className="text-[#d2bcfe] bg-[#ffffff2b] md:p-2 p-4 rounded-lg w-[80%] h-[3rem]  md:h-[3.2rem] m-auto md:w-[11rem] text-[15px] md:text-base font-semibold md:mt-10 mt-4"
                             />
                             {formErrors.email && <div className="text-[#ff2727]  absolute">{formErrors.email}</div>}
-                            <button type="submit" disabled={isLoading} className="button-str rounded-xl  font-bold mt-10 " >
+                            <button type="submit" disabled={isLoading} className="button-str font-bold mt-[2.4rem] " style={{borderRadius:"10px" , padding: "10px 20px" }}>
                                 {isLoading ? ( // Conditional rendering based on isLoading
                                     <div className="flex justify-center items-center">
                                         Loading...
