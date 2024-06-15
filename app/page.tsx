@@ -16,6 +16,7 @@ import { motion } from "framer-motion";
 import { ThreeDCardExample } from "./snippets/3d-card-snippet";
 import { EvervaultCardSnippet } from "./snippets/evervault-card-snippet";
 import CalendlyWidget from "../components/calendly"
+import Ebook from "@/components/ebook";
 export default function Home() {
 
   const [isDropdownVisible, setDropdownVisible] = useState(false);
@@ -193,7 +194,7 @@ export default function Home() {
             </svg>
           </div>
         </button>
-        
+
         <div className="flex flex-row justify-center gap-1 md:mt-20  ">
           <div className="w-18 flex flex-col">
             <img src="/images/rating (2).png" className="h-16 w-16 m-auto -mb-9" alt="" />
@@ -536,8 +537,9 @@ export default function Home() {
         {/* <div ref={shopifyStoresRef}>
         <ShopifyStores />
         </div> */}
-
+       
         <Services />
+        <Ebook />
         <div className="" id="scheduleCall" style={{ background: '' }}>
           <div className="flex lg:flex-row flex-col-reverse justify-center md:gap-24 md:p-12  px-8 lg:-mt-[5rem] ">
             <div className="md:w-[50%] ">
