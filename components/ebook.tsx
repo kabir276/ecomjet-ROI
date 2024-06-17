@@ -73,7 +73,7 @@ const Ebook = () => {
                     <div
                         className="text-[20px] md:pb-5 md:text-2xl px-0 md:text-left text-center  bg-clip-text text-transparent bg-gradient-to-b from-[rgba(151,106,242)] to bg-[rgba(151,106,242,0.63)] bg-opacity-50"
                     >
-                        Ultimate SaaS Guide
+                        ULTIMATE SAAS GUIDE
                     </div>
                     <div
                         className="text-[40px] pb-5 md:text-5xl px-0 md:text-left text-center  bg-clip-text text-transparent bg-[#fff]"
