@@ -8,7 +8,9 @@ import CircleCheck from "@/icons/circleCheck";
 import { InfiniteMovingCardsDemo } from "../snippets/infinite-moving-card-snippet";
 import CalendlyWidget from "@/components/calendly";
 import * as  z from 'zod';
-import Popup from "@/components/popup";
+import { PiDownloadSimpleBold } from "react-icons/pi";
+
+// import Popup from "@/components/popup";
 interface FormErrors {
   firstName?: string;
   email?: string;
@@ -123,7 +125,7 @@ export default function Home() {
       <Spotlight className="  md:flex md:-top-80 top-54  md:left-80 left-52 -top-56 h-[100%]" fill="rgba(151,106,242,0.64)" />
       <div className="p-4 mx-auto relative z-10 w-full px-2 md:-mt-20">
         <div>
-        
+
           <div className="flex md:flex-row flex-col-reverse justify-center md:p-24 m-auto">
             <div className="px-4">
               <div
@@ -141,139 +143,242 @@ export default function Home() {
                 Ignite explosive growth for your SaaS venture with strategies from an industry insider&apos;s proven framework.
               </p>
               <div >
-                <form onSubmit={handleSubmit} className="flex md:flex-row flex-col gap-4">
-                  <input
-                    type="text"
-                    name="firstName"
-                    placeholder="First Name"
-                    value={formData.firstName}
-                    onChange={handleInputChange}
-                    className="text-[#d2bcfe] bg-[#ffffff2b] md:p-2 p-4 rounded-lg w-[80%] h-[3rem] md:h-[3.2rem] m-auto md:w-[11rem] text-[15px] md:text-base font-semibold mt-10"
-                  />
-                  {formErrors.firstName && <div className="text-[#ff2727]  absolute">{formErrors.firstName}</div>}
-                  <input
-                    type="email"
-                    name="email"
-                    placeholder="Business Email"
-                    value={formData.email}
-                    onChange={handleInputChange}
-                    className="text-[#d2bcfe] bg-[#ffffff2b] md:p-2 p-4 rounded-lg w-[80%] h-[3rem]  md:h-[3.2rem] m-auto md:w-[11rem] text-[15px] md:text-base font-semibold md:mt-10 mt-4"
-                  />
-                  {formErrors.email && <div className="text-[#ff2727]  absolute">{formErrors.email}</div>}
-                  <button type="submit" disabled={isLoading} className="button-str font-bold mt-[2.4rem] md:w-[9rem]" style={{ borderRadius: "10px", padding: "10px 20px" }}>
-                    {isLoading ? (
-                      <div className="flex justify-center items-center">
-                        Loading...
-                      </div>
-                    ) : isaccessed ? (
-                      <>
-                      <button onClick={()=>setisaccessed(false)}>
-                      <a href="/SaaS Marketing Playbook - Gourav Chhabra ( Ecom Jet ROI ).pdf" download>Download</a>
-                      </button>
-                      </>
-                    ) : (
-                      <>
-                        Get access
+                {isaccessed ? (
 
-                        <div className="star-1">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            xmlSpace="preserve"
-                            version="1.1"
-                            style={{ shapeRendering: 'geometricPrecision', textRendering: 'geometricPrecision', imageRendering: "crisp-edges", fillRule: 'evenodd', clipRule: 'evenodd' }}
-                            viewBox="0 0 784.11 815.53"
-                            xmlnsXlink="http://www.w3.org/1999/xlink"
-                          >
-                            <defs></defs>
-                            <g id="Layer_x0020_1">
-                              <metadata id="CorelCorpID_0Corel-Layer"></metadata>
-                              <path
-                                className="fil0"
-                                d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
-                              ></path>
-                            </g>
-                          </svg>
+                  <>
+                    <button disabled={isLoading} onClick={() => setisaccessed(false)} className="button-str font-bold mt-[2.4rem] w-auto" style={{ borderRadius: "10px" }}>
+                      <div className="flex flex-row  gap-2 m-auto">
+                     <a href="/SaaS Marketing Playbook - Gourav Chhabra ( Ecom Jet ROI ).pdf" download>Download  </a>
+                     <div className=" text-xl">
+                     <PiDownloadSimpleBold />
+                     </div>
+                     </div>
+                    <div className="star-1">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlSpace="preserve"
+                        version="1.1"
+                        style={{ shapeRendering: 'geometricPrecision', textRendering: 'geometricPrecision', imageRendering: "crisp-edges", fillRule: 'evenodd', clipRule: 'evenodd' }}
+                        viewBox="0 0 784.11 815.53"
+                        xmlnsXlink="http://www.w3.org/1999/xlink"
+                      >
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                          <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                          <path
+                            className="fil0"
+                            d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                    <div className="star-2">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlSpace="preserve"
+                        version="1.1"
+                        style={{ shapeRendering: 'geometricPrecision', textRendering: 'geometricPrecision', imageRendering: "crisp-edges", fillRule: 'evenodd', clipRule: 'evenodd' }}
+                        viewBox="0 0 784.11 815.53"
+                        xmlnsXlink="http://www.w3.org/1999/xlink"
+                      >
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                          <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                          <path
+                            className="fil0"
+                            d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                    <div className="star-3">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlSpace="preserve"
+                        version="1.1"
+                        style={{ shapeRendering: 'geometricPrecision', textRendering: 'geometricPrecision', imageRendering: "crisp-edges", fillRule: 'evenodd', clipRule: 'evenodd' }}
+                        viewBox="0 0 784.11 815.53"
+                        xmlnsXlink="http://www.w3.org/1999/xlink"
+                      >
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                          <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                          <path
+                            className="fil0"
+                            d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                    <div className="star-4">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlSpace="preserve"
+                        version="1.1"
+                        style={{ shapeRendering: 'geometricPrecision', textRendering: 'geometricPrecision', imageRendering: "crisp-edges", fillRule: 'evenodd', clipRule: 'evenodd' }}
+                        viewBox="0 0 784.11 815.53"
+                        xmlnsXlink="http://www.w3.org/1999/xlink"
+                      >
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                          <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                          <path
+                            className="fil0"
+                            d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                    <div className="star-5">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlSpace="preserve"
+                        version="1.1"
+                        style={{ shapeRendering: 'geometricPrecision', textRendering: 'geometricPrecision', imageRendering: "crisp-edges", fillRule: 'evenodd', clipRule: 'evenodd' }}
+                        viewBox="0 0 784.11 815.53"
+                        xmlnsXlink="http://www.w3.org/1999/xlink"
+                      >
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                          <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                          <path
+                            className="fil0"
+                            d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                    </button>
+                  </>
+                ) : (
+                  <form onSubmit={handleSubmit} className="flex md:flex-row flex-col gap-4">
+                    <input
+                      type="text"
+                      name="firstName"
+                      placeholder="First Name"
+                      value={formData.firstName}
+                      onChange={handleInputChange}
+                      className="text-[#d2bcfe] bg-[#ffffff2b] md:p-2 p-4 rounded-lg w-[80%] h-[3rem] md:h-[3.2rem] m-auto md:w-[11rem] text-[15px] md:text-base font-semibold mt-10"
+                    />
+                    {formErrors.firstName && <div className="text-[#ff2727]  absolute">{formErrors.firstName}</div>}
+                    <input
+                      type="email"
+                      name="email"
+                      placeholder="Business Email"
+                      value={formData.email}
+                      onChange={handleInputChange}
+                      className="text-[#d2bcfe] bg-[#ffffff2b] md:p-2 p-4 rounded-lg w-[80%] h-[3rem]  md:h-[3.2rem] m-auto md:w-[11rem] text-[15px] md:text-base font-semibold md:mt-10 mt-4"
+                    />
+                    {formErrors.email && <div className="text-[#ff2727]  absolute">{formErrors.email}</div>}
+                    <button type="submit" disabled={isLoading} className="button-str font-bold mt-[2.4rem] md:w-[9rem]" style={{ borderRadius: "10px", padding: "10px 20px" }}>
+                      {isLoading ? (
+                        <div className="flex justify-center items-center">
+                          Loading...
                         </div>
-                        <div className="star-2">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            xmlSpace="preserve"
-                            version="1.1"
-                            style={{ shapeRendering: 'geometricPrecision', textRendering: 'geometricPrecision', imageRendering: "crisp-edges", fillRule: 'evenodd', clipRule: 'evenodd' }}
-                            viewBox="0 0 784.11 815.53"
-                            xmlnsXlink="http://www.w3.org/1999/xlink"
-                          >
-                            <defs></defs>
-                            <g id="Layer_x0020_1">
-                              <metadata id="CorelCorpID_0Corel-Layer"></metadata>
-                              <path
-                                className="fil0"
-                                d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
-                              ></path>
-                            </g>
-                          </svg>
-                        </div>
-                        <div className="star-3">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            xmlSpace="preserve"
-                            version="1.1"
-                            style={{ shapeRendering: 'geometricPrecision', textRendering: 'geometricPrecision', imageRendering: "crisp-edges", fillRule: 'evenodd', clipRule: 'evenodd' }}
-                            viewBox="0 0 784.11 815.53"
-                            xmlnsXlink="http://www.w3.org/1999/xlink"
-                          >
-                            <defs></defs>
-                            <g id="Layer_x0020_1">
-                              <metadata id="CorelCorpID_0Corel-Layer"></metadata>
-                              <path
-                                className="fil0"
-                                d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
-                              ></path>
-                            </g>
-                          </svg>
-                        </div>
-                        <div className="star-4">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            xmlSpace="preserve"
-                            version="1.1"
-                            style={{ shapeRendering: 'geometricPrecision', textRendering: 'geometricPrecision', imageRendering: "crisp-edges", fillRule: 'evenodd', clipRule: 'evenodd' }}
-                            viewBox="0 0 784.11 815.53"
-                            xmlnsXlink="http://www.w3.org/1999/xlink"
-                          >
-                            <defs></defs>
-                            <g id="Layer_x0020_1">
-                              <metadata id="CorelCorpID_0Corel-Layer"></metadata>
-                              <path
-                                className="fil0"
-                                d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
-                              ></path>
-                            </g>
-                          </svg>
-                        </div>
-                        <div className="star-5">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            xmlSpace="preserve"
-                            version="1.1"
-                            style={{ shapeRendering: 'geometricPrecision', textRendering: 'geometricPrecision', imageRendering: "crisp-edges", fillRule: 'evenodd', clipRule: 'evenodd' }}
-                            viewBox="0 0 784.11 815.53"
-                            xmlnsXlink="http://www.w3.org/1999/xlink"
-                          >
-                            <defs></defs>
-                            <g id="Layer_x0020_1">
-                              <metadata id="CorelCorpID_0Corel-Layer"></metadata>
-                              <path
-                                className="fil0"
-                                d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
-                              ></path>
-                            </g>
-                          </svg>
-                        </div>
-                      </>
-                    )}
-                  </button>
-                </form>
+                      ) : (
+                        <>
+                          Get access
+
+                          <div className="star-1">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              xmlSpace="preserve"
+                              version="1.1"
+                              style={{ shapeRendering: 'geometricPrecision', textRendering: 'geometricPrecision', imageRendering: "crisp-edges", fillRule: 'evenodd', clipRule: 'evenodd' }}
+                              viewBox="0 0 784.11 815.53"
+                              xmlnsXlink="http://www.w3.org/1999/xlink"
+                            >
+                              <defs></defs>
+                              <g id="Layer_x0020_1">
+                                <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                                <path
+                                  className="fil0"
+                                  d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                                ></path>
+                              </g>
+                            </svg>
+                          </div>
+                          <div className="star-2">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              xmlSpace="preserve"
+                              version="1.1"
+                              style={{ shapeRendering: 'geometricPrecision', textRendering: 'geometricPrecision', imageRendering: "crisp-edges", fillRule: 'evenodd', clipRule: 'evenodd' }}
+                              viewBox="0 0 784.11 815.53"
+                              xmlnsXlink="http://www.w3.org/1999/xlink"
+                            >
+                              <defs></defs>
+                              <g id="Layer_x0020_1">
+                                <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                                <path
+                                  className="fil0"
+                                  d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                                ></path>
+                              </g>
+                            </svg>
+                          </div>
+                          <div className="star-3">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              xmlSpace="preserve"
+                              version="1.1"
+                              style={{ shapeRendering: 'geometricPrecision', textRendering: 'geometricPrecision', imageRendering: "crisp-edges", fillRule: 'evenodd', clipRule: 'evenodd' }}
+                              viewBox="0 0 784.11 815.53"
+                              xmlnsXlink="http://www.w3.org/1999/xlink"
+                            >
+                              <defs></defs>
+                              <g id="Layer_x0020_1">
+                                <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                                <path
+                                  className="fil0"
+                                  d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                                ></path>
+                              </g>
+                            </svg>
+                          </div>
+                          <div className="star-4">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              xmlSpace="preserve"
+                              version="1.1"
+                              style={{ shapeRendering: 'geometricPrecision', textRendering: 'geometricPrecision', imageRendering: "crisp-edges", fillRule: 'evenodd', clipRule: 'evenodd' }}
+                              viewBox="0 0 784.11 815.53"
+                              xmlnsXlink="http://www.w3.org/1999/xlink"
+                            >
+                              <defs></defs>
+                              <g id="Layer_x0020_1">
+                                <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                                <path
+                                  className="fil0"
+                                  d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                                ></path>
+                              </g>
+                            </svg>
+                          </div>
+                          <div className="star-5">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              xmlSpace="preserve"
+                              version="1.1"
+                              style={{ shapeRendering: 'geometricPrecision', textRendering: 'geometricPrecision', imageRendering: "crisp-edges", fillRule: 'evenodd', clipRule: 'evenodd' }}
+                              viewBox="0 0 784.11 815.53"
+                              xmlnsXlink="http://www.w3.org/1999/xlink"
+                            >
+                              <defs></defs>
+                              <g id="Layer_x0020_1">
+                                <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                                <path
+                                  className="fil0"
+                                  d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                                ></path>
+                              </g>
+                            </svg>
+                          </div>
+                        </>
+                      )}
+                    </button>
+                  </form>
+                )}
               </div>
             </div>
             <div>

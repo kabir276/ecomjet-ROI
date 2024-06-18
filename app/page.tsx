@@ -546,7 +546,7 @@ export default function Home() {
               <div >
                 <button onClick={() => redirectToEbook()} className="button-str font-bold mt-[2.4rem] " style={{ borderRadius: "10px", padding: "10px 20px" }}>
 
-                  Get your access
+                  Get access
 
                   <div className="star-1">
                     <svg
