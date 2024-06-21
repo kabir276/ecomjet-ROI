@@ -333,7 +333,7 @@ body {
   content: "";
   width: 100%;
   height: 100%;
-  background: #03005f;
+  background: #353388;
   z-index: -1;
   border-radius: 10px;
   pointer-events: none;
@@ -387,7 +387,7 @@ body {
   content: "";
   width: 100%;
   height: 100%;
-  background: #6a008a;
+  background: #8f56a0;
   z-index: -1;
   border-radius: 10px;
   pointer-events: none;
