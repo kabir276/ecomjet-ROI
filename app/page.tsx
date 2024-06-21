@@ -14,6 +14,7 @@ import { ThreeDCardExample } from "./snippets/3d-card-snippet";
 import { EvervaultCardSnippet } from "./snippets/evervault-card-snippet";
 import CalendlyWidget from "../components/calendly"
 import { useRouter } from "next/navigation"
+import Socials from "@/components/socials";
 
 export default function Home() {
   const router = useRouter();
@@ -674,6 +675,8 @@ export default function Home() {
           </div>
         </div>
         <InfiniteMovingCardsDemo />
+
+        <Socials />
         <FAQS />
 
       </div>

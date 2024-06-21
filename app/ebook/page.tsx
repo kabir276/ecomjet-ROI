@@ -9,6 +9,7 @@ import { InfiniteMovingCardsDemo } from "../snippets/infinite-moving-card-snippe
 import CalendlyWidget from "@/components/calendly";
 import * as  z from 'zod';
 import { PiDownloadSimpleBold } from "react-icons/pi";
+import Socials from "@/components/socials";
 
 // import Popup from "@/components/popup";
 interface FormErrors {
@@ -434,6 +435,8 @@ export default function Home() {
           </div>
         </div>
         <InfiniteMovingCardsDemo />
+        <br />
+        <Socials/>
         <FAQS />
 
       </div>
