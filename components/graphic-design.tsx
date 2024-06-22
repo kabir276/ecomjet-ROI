@@ -1,8 +1,8 @@
 'use client'
 
+import { ThreeDCardExample } from "@/app/snippets/3d-card-snippet";
+import { EvervaultCardSnippet } from "@/app/snippets/evervault-card-snippet";
 import { motion } from "framer-motion";
-import { ThreeDCardExample } from "./snippets/3d-card-snippet";
-import { EvervaultCardSnippet } from "./snippets/evervault-card-snippet";
 
 const GraphicDesign = () => {
     return ( <div>
