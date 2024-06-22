@@ -143,13 +143,15 @@ export default function Home() {
               <p className="md:mt-4 mt-[5px] text-center md:text-left  m-auto md:w-auto w-[100%]  md:text-[15px] text-[18px]  font-normal  text-neutral-300 md:max-w-[34rem] max-w-[24rem]">
                 Ignite explosive growth for your SaaS venture with strategies from an industry insider&apos;s proven framework.
               </p>
+              
               <div >
                 {isaccessed ? (
 
                   <>
-                    <button disabled={isLoading} onClick={() => setisaccessed(false)} className="button-str font-bold mt-[2.4rem] w-auto" style={{ borderRadius: "10px" }}>
+                  <form action="/SaaS Marketing Playbook - Gourav Chhabra ( Ecom Jet ROI ).pdf" method="get">
+                    <button type="submit" disabled={isLoading} onClick={() => setisaccessed(false)} className="button-str font-bold mt-[2.4rem] w-auto" style={{ borderRadius: "10px" }}>
                       <div className="flex flex-row  gap-2 m-auto">
-                     <a href="/SaaS Marketing Playbook - Gourav Chhabra ( Ecom Jet ROI ).pdf" download>Download  </a>
+                     <a href="/SaaS Marketing Playbook - Gourav Chhabra ( Ecom Jet ROI ).pdf" download >Download  </a>
                      <div className=" text-xl">
                      <PiDownloadSimpleBold />
                      </div>
@@ -250,6 +252,7 @@ export default function Home() {
                       </svg>
                     </div>
                     </button>
+                    </form>
                   </>
                 ) : (
                   <form onSubmit={handleSubmit} className="flex md:flex-row flex-col gap-4">
